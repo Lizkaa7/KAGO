@@ -1,0 +1,62 @@
+@import url("../styles/parts/header.css");
+@import url("../styles/parts/footer.css");
+
+body {
+    --logo-color: var(--text-default-color);
+
+    --footer-background-color: var(--dark-color);
+    --footer-color: var(--wite-color);
+    --footer-meta-color: var(--wite-color);
+
+    --background-color: var(--wite-color);
+    --font-color: var(--dark-color);
+
+    background-color: var(--background-color);
+    color: var(--font-color);
+}
+
+body.inverse {
+    --logo-color: var(--text-default-inverse-color);
+
+    --footer-background-color: var(--wite-color);
+    --footer-color: var(--dark-color);
+    --footer-meta-color: var(--dark-color);
+
+    --background-color: var(--dark-color);
+    --font-color: var(--wite-color);
+
+}
+
+
+
+section.main-section-hero {
+    padding: 60px 96px 96px 96px;
+}
+
+section.main-section-hero h1 {
+    font-family: var(--heading-XXLarge-font);
+    font-weight: var(--heading-XXLarge-font-weight);
+    font-size: var(--heading-XXLarge-font-size);
+    line-height: var(--heading-XXLarge-line-height);
+    letter-spacing: var(--heading-XXLarge-letter-spacing);
+    text-transform: var(--heading-XXLarge-case);
+    pointer-events: none;
+}
+
+section.main-section-hero h2 {
+    max-width: 1400px;
+    font-family: var(--heading-alt-small-font);
+    font-weight: var(--heading-alt-small-font-weight);
+    font-size: var(--heading-alt-small-font-size);
+    line-height: var(--heading-alt-small-line-height);
+    letter-spacing: var(--heading-alt-small-letter-spacing);
+}
+
+section.main-section-projects .wrapper {
+    margin-bottom: 24px;
+}
+
+section.main-section-projects .wrapper img {
+    width: 100%;
+}
+
