@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+
+    --logo-color: var(--text-default-color);
+
+    --footer-background-color: var(--dark-color);
+    --footer-color: var(--wite-color);
+    --footer-meta-color: var(--wite-color);
+
+    --background-color: var(--wite-color);
+    --font-color: var(--dark-color);
+
+    background-color: var(--background-color);
+    color: var(--font-color);
+}
+
