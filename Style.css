@@ -1,0 +1,205 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+}
+.a1 {
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+}
+.a1 > nav > ul {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  margin-left: 30px;
+}
+.a1 > nav > ul > a {
+  display: block;
+  margin: 10px;
+  padding: 0;
+}
+.a1 > nav > ol {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  margin-right: 50px;
+}
+.a1 a {
+  color: white;
+}
+span {
+  display: flex;
+  margin: 0;
+  color: darkgray;
+  font-size: 25px;
+}
+.images > img {
+  display: inline;
+  float: left;
+  width: 600px;
+}
+.all {
+  text-align: left;
+  padding-left: 46%;
+  padding-right: 45px;
+  margin-top: 30%;
+  color: white;
+}
+.all > p {
+  font-size: 30px;
+}
+.all > h1 {
+  font-size: 65px;
+  display: flex;
+}
+.all > .end {
+  text-align: center;
+}
+.text3 {
+  display: block;
+  text-align: left;
+  color: rgb(255, 254, 251);
+  background-color: rgb(34, 34, 34);
+  margin-top: 60px;
+  padding-left: 40px;
+  padding-right: 18%;
+  padding-top: 5px;
+  padding-bottom: 20px;
+  border-style: none;
+}
+.text3 > ol > h3 {
+  display: inline;
+  font-size: 70px;
+  margin-bottom: 5px;
+}
+.text3 > h2 {
+  display: inline;
+  font-size: 170px;
+  margin-left: 22px;
+}
+.text > h2 {
+  font-size: 40px;
+}
+.text {
+  margin-top: 12%;
+}
+.pro {
+  display: flex;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+.ser {
+  display: flex;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+.stu {
+  display: flex;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+.jou {
+  display: flex;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+.all > h1 {
+  margin-bottom: 10px;
+}
+.end > img {
+  display: flex;
+  border: 0;
+  width: 100%;
+  margin: 0;
+}
+.end {
+  display: inline;
+  margin: 0;
+  padding: 0;
+}
+.over {
+  display: flex;
+  background-color: rgb(255, 255, 255);
+  border: 0;
+}
+.sec1 > p {
+  font-style: italic;
+  color: lightslategrey;
+  margin-left: 60px;
+}
+.sec2 > p {
+  font-style: italic;
+  color: lightslategrey;
+  margin-left: 270px;
+}
+.sec3 > p {
+  font-style: italic;
+  color: lightslategrey;
+  margin-left: 230px;
+}
+.sec4 > p {
+  font-style: italic;
+  color: lightslategrey;
+  margin-left: 200px;
+}
+.sec1 > ol {
+  list-style: none;
+  font-size: 23px;
+  margin-left: 20px;
+}
+.sec2 > ol {
+  list-style: none;
+  font-size: 23px;
+  margin-left: 230px;
+}
+.sec3 > ol {
+  list-style: none;
+  font-size: 23px;
+  margin-left: 190px;
+}
+.sec4 > ol {
+  list-style: none;
+  font-size: 23px;
+  margin-left: 160px;
+}
+.sss {
+  display: flex;
+  background-color: rgb(255, 255, 255);
+  padding: 2%;
+}
+.sss > ol {
+  list-style: none;
+  display: block;
+  padding: 5px;
+}
+.sss > ul {
+  display: block;
+  list-style: none;
+  margin-left: 77%;
+}
+.over a {
+  color: black;
+  font-weight: bold;
+}
+.sss a {
+  color: black;
+  font-weight: bold;
+  text-decoration: underline;
+}
+.sec1 a {
+  display: flex;
+  padding-bottom: 15px;
+}
+.sec2 a {
+  display: flex;
+  padding-bottom: 15px;
+}
+.sec3 a {
+  display: flex;
+  padding-bottom: 15px;
+}
+.sec4 a {
+  display: flex;
+  padding-bottom: 15px;
+}
