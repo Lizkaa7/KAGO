@@ -1,0 +1,157 @@
+:root {
+  --primary-color: #111111;
+  --secondary-color: #555555;
+  --accent-color: #777777;
+  --background-color: #ffffff;
+}
+
+.section-intro {
+  padding: 80px 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.intro-wrapper {
+  display: flex;
+  align-items: flex-start; 
+  justify-content: space-between;
+  gap: 60px;
+}
+
+.intro-image {
+  flex: 0 0 50%; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.book-image {
+  width: 100%; 
+  height: auto; 
+  object-fit: cover; 
+  border-radius: 8px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.intro-text {
+  flex: 0 0 50%; 
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 24px;
+}
+
+.intro-brand {
+  text-align: left;
+}
+
+.studio-name {
+  font-size: 48px;
+  letter-spacing: 2px;
+  margin: 0;
+}
+
+.location-text {
+  font-style: italic;
+  font-size: 16px;
+  color: var(--secondary-color);
+}
+
+.tagline-text {
+  font-size: 24px;
+  line-height: 1.2;
+  margin-top: 0;
+}
+
+.about-us-block,
+.our-partners-block {
+  margin-top: 30px;
+}
+
+.section-label {
+  font-size: 14px;
+  font-style: italic;
+  color: var(--accent-color);
+}
+
+.section-title {
+  font-size: 32px;
+  line-height: 1.2;
+  text-transform: uppercase;
+  margin: 10px 0;
+}
+
+.section-description {
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--primary-color);
+}
+
+.partner-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+.partner-item {
+  flex: 0 1 80px;
+  text-align: center;
+}
+
+.partner-logo {
+  width: 100%;
+  height: auto;
+  opacity: 0.8;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.partner-logo:hover {
+  opacity: 1;
+  transform: scale(1.1);
+}
+
+@media (max-width: 768px) {
+  .intro-wrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .intro-image, 
+  .intro-text {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  .intro-text {
+    text-align: center;
+    align-items: center;
+  }
+
+  .intro-brand {
+    text-align: center;
+  }
+
+  .studio-name {
+    font-size: 36px;
+  }
+
+  .tagline-text {
+    font-size: 20px;
+  }
+
+  .section-title {
+    font-size: 28px;
+  }
+
+  .section-description {
+    font-size: 14px;
+  }
+}
+
+
+
+
