@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-compatible" content="IE=eadg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="static/styles/style.css" />
+    <title>Kajo</title>
+    <style>
+      a {
+        text-decoration: none; color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="start">
+      <span style="font-size: 40px;"><a href="#">KAJO</a></span>
+      <div class="start1"><a href="#">Projects</a>
+      <a href="#">Services</a>
+      <a href="#">Studio</a>
+      <a href="#">Journal</a>
+    </div>
+    <div class="start2">
+      <a href="#">Let's Talk</a>
+    </div>
+    </div>
+    <div class="title">
+        <span style="font-family:Anton SC; font-size: 130px;"><h1>JOURNAL</h1></span>
+        <h2>Explore insights,tips, and trends to elevate your brand strategy.</h2>
+      </ol>
+    </div>
+    <div class="conteiner">
+      <div class="box1">
+        <img src="C:\Users\Dell\Desktop\Project2\Project2\images\01.jpg" alt="">
+          <li>(Art Director)</li>
+          <ol>
+            <p><h2>5 ESSENTIAL BRANDING TIPS FOR BUSINESSES</h2></p>
+            <P>Discover key strategles to create a memorable and impactfull brand for your small business.</P>
+          </ol>
+      </div>
+      <div class="box2">
+        <img src="C:\Users\Dell\Desktop\Project2\Project2\images\02.jpg" alt="">
+        <li>(Art Director)</li>
+        <ol>
+          <p><h2>HOW TO DESIGN A USER-FRIENDLY WEBSITE</h2></p>
+          <p>Learn practical tips for designing websites that are both visually appealing and user-friendly.</p>
+        </ol>
+      </div>
+      <div class="box3">
+        <img src="C:\Users\Dell\Desktop\Project2\Project2\images\03.jpg" alt="">
+        <li>(Art Director)</li>
+        <ol>
+          <p><h2>THE IMPORTANCE OF RESPONSIVE DESIGN</h2></p>
+          <p>Explore why responsive design is crucial for enhansing experience and increasing conversions.</p>
+        </ol>
+      </div>
+    </div>
+    <div class="conteiner1">
+      <div class="box4">
+        <img src="C:\Users\Dell\Desktop\Project2\Project2\images\11.jpg" alt="">
+        <li>(Art Director)</li>
+        <ol>
+          <p><h2>TOP 3 WEB DEVELOPMENT TRENDS IN 2024</h2></p>
+          <p>Stay ahead with the latest web development trends shaping digital experiences and online platforms in</p>
+        </ol>
+      </div>
+      <div class="box5">
+        <img src="C:\Users\Dell\Desktop\Project2\Project2\images\12.png" alt="">
+        <li>(Art Director)</li>
+        <ol>
+          <p><h2>HOW TO CREATE AN EFFECTIVE BRAND INDETITY</h2></p>
+          <p>Uncover the essential elements needed to develop a cohesive and recognizable brand identity.</p>
+        </ol>
+      </div>
+      <div class="box6">
+        <img src="C:\Users\Dell\Desktop\Project2\Project2\images\13.png" alt="">
+        <li>(Art Director)</li>
+        <ol>
+          <p><h2>BOOST ENGAGEMENT WITH THOUGHTFUL UX DESIGN</h2></p>
+          <p>Improve user engagement by focusing on UX design that prioritizes functionality and user satisfaction.</p>
+        </ol>
+      </div>
+    </div>
+    <div class="end">
+      <img src="C:\Users\Dell\Desktop\Project2\Project2\images\1111.jpg" alt="" />
+    </div>
+
+    <div class="over">
+      <div class="sec1">
+        <p>(Pgase)</p>
+        <ol>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Service</a></li>
+          <li><a href="#">Studio</a></li>
+          <li><a href="#">Contact</a></li>
+        </ol>
+      </div>
+      <div class="sec2">
+        <p>(CMS)</p>
+        <ol>
+          <li><a href="#">Work</a></li>
+          <li><a href="#">Work Single</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Blog single</a></li>
+        </ol>
+      </div>
+      <div class="sec3">
+        <p>(Utility Pages)</p>
+        <ol>
+          <li><a href="#">404</a></li>
+          <li><a href="#">Licensing</a></li>
+        </ol>
+      </div>
+      <div class="sec4">
+        <p>(Socials)</p>
+        <ol>
+          <li><a href="#">Instagram</a></li>
+          <li><a href="#">Behance</a></li>
+          <li><a href="#">Dridddle</a></li>
+        </ol>
+      </div>
+    </div>
+    <div class="sss" id="ss">
+      <ol>
+        <li><a href="#">By Gola Templates</a></li>
+      </ol>
+      <ul>
+        <li><a href="#">Back to Top</a></li>
+      </ul>
+    </div>
+  </body>
+</html>
