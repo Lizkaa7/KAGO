@@ -1,3 +1,5 @@
+/* Підключаючись до https://gptonline.ai/ для ще більше порад */
+
 :root {
   --primary-color: #111111;
   --secondary-color: #555555;
@@ -13,28 +15,29 @@
 
 .intro-wrapper {
   display: flex;
-  align-items: flex-start; 
+  align-items: flex-start;
   justify-content: space-between;
   gap: 60px;
 }
 
 .intro-image {
-  flex: 0 0 50%; 
+  flex: 0 0 50%;
+  max-width: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .book-image {
-  width: 100%; 
-  height: auto; 
-  object-fit: cover; 
+  width: 100%;
+  height: auto;
   border-radius: 8px;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
 }
 
 .intro-text {
-  flex: 0 0 50%; 
+  flex: 0 0 50%;
+  max-width: 50%;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -49,7 +52,6 @@
 .studio-name {
   font-size: 48px;
   letter-spacing: 2px;
-  margin: 0;
 }
 
 .location-text {
@@ -151,7 +153,126 @@
     font-size: 14px;
   }
 }
+/* === Projects Section === */
+.projects-section {
+  padding: 120px 0;
+}
+
+.projects-container {
+  max-width: 1320px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.projects-header {
+  margin-bottom: 64px;
+}
+
+.projects-labels {
+  display: flex;
+  justify-content: space-between;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #999999;
+  margin-bottom: 8px;
+}
+
+.projects-title {
+  font-size: 72px;
+  line-height: 1.1;
+  font-weight: 500;
+  margin: 0 0 24px 0;
+  color: #000;
+}
+
+.projects-subtitle {
+  font-size: 20px;
+  line-height: 1.6;
+  color: #666666;
+  max-width: 720px;
+}
+
+.projects-gallery {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 64px 32px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.project-item {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  transition: transform 0.3s ease;
+  width: 100%; /* Встановлюємо ширину */
+}
+
+.project-item a {
+  display: block;
+  overflow: hidden;
+  position: relative;
+}
+
+.project-picture {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.project-image {
+  width: 100%; /* Зображення займають всю ширину */
+  height: auto;
+  display: block;
+  object-fit: cover; /* Зберігає пропорції зображень */
+}
+
+.project-logo {
+  width: 120px;
+  height: auto;
+  margin-top: 16px;
+  transition: transform 0.3s ease;
+}
+
+.project-meta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 20px;
+  line-height: 1.4;
+  color: #000;
+  transition: transform 0.3s ease;
+}
+
+/* === Hover Effects === */
+.project-item:hover .project-image {
+  transform: scale(1.05);
+}
+
+.project-item:hover .project-meta {
+  transform: scale(1.05);
+}
+
+.project-item:hover .project-logo {
+  transform: scale(1.1);
+}
+
+/* === Responsive (Max-width 1920px) === */
+@media (max-width: 1920px) {
+  .projects-title {
+    font-size: 56px;
+  }
+
+  .projects-subtitle {
+    font-size: 18px;
+  }
+
+  .projects-gallery {
+    gap: 48px 24px;
+  }
+}
 
 
 
-
+/* Більше рішень для сайтів на https://gptonline.ai/ */
