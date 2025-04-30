@@ -3,8 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Email Share</title>
-    <link rel="stylesheet" href="">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Inter&display=swap" rel="stylesheet">
+    <link href="https://api.fontshare.com/css?f[]=gambetta@400,700&display=swap" rel="stylesheet">
+    <title>Kajo</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/style-color.css">
     
 </head>
 <body>
@@ -16,18 +19,20 @@
                 <h1 class="title-large">UTOSIA</h1>
                 <p class="subtitle">Utosia came to us looking for a full-service digital solution.</p>
             
-                <div class="hero-project-info">
-                  <ul class="hero-project-info-title">
-                      <li>(Client)</li>
-                      <li>(Year)</li>
-                      <li>(Services)</li>
-                  </ul>
-                  <ul class="hero-project-info-contents">
-                      <li>Acme Design</li>
-                      <li>2024</li>
-                      <li>Branding, Website</li>
-                  </ul>
-                </div>
+                <ul class="hero-info">
+                  <li class="hero-info-li">
+                    <p class="hero-info-subspecies">(Client)</p>
+                    <p class="hero-info-text">Acme Design</p>
+                  </li>
+                  <li class="hero-info-li">
+                    <p class="hero-info-subspecies">(Year)</p>
+                    <p class="hero-info-text">2024</p>
+                  </li>
+                  <li class="hero-info-li">
+                    <p class="hero-info-subspecies">(Services)</p>
+                    <p class="hero-info-text">Branding, Website</p>
+                  </li>
+                </ul>
             
                 
                     <picture class="image-wrapper">
@@ -54,10 +59,12 @@
          
         
         <section class="section-about">
-            <h2 class="section-about-title">DYNAMIC WEBSITE</h2>
+          <div class="section-about-information">
+            
+               <h2 class="section-about-title">DYNAMIC WEBSITE</h2>
 
             <div class="description-wrapper">
-              <p class="section-about-paragraph">
+              <p class="section-about-subtitle-paragraph">
                 Utosia, an emerging e-commerce platform for sustainable fashion, came to us looking for a full-service digital solution.
               </p>
               <p class="section-about-paragraph">
@@ -70,12 +77,12 @@
                 Since launching the platform, Utosia has seen a steady increase in traffic and sales. The site’s responsiveness across mobile and desktop has further enhanced the customer experience, making it easy for users to shop from any device. This project has helped Utosia carve out a unique space in the competitive sustainable fashion market.
               </p>
             </div>
-
+          </div>
         </section>
 
         <section class="section-gallery">
           <div class="gallery-image-grid">
-            <div class="image-grid-photo&svg">
+            <div class="image-grid-photosvg">
               <img class="picture-utosia-black" src="./IMAGE/utosia-black.svg" alt="">
 
               <picture>
@@ -94,8 +101,9 @@
                 type="image/jpg"
                 />
                 <img src="./IMAGE/2Image.1x.jpg" alt="">
-           </div>
-            </picture>
+              </picture>
+            </div>
+            
             <picture>
                 <source media="(min-width:1080px)"
                 srcset="./IMAGE/3Image.1x.avif 1x, ./IMAGE/3Image.2x.avif 2x"
