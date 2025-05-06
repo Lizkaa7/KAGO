@@ -154,123 +154,146 @@
 }
 /* === Projects Section === */
 .projects-section {
-  padding: 120px 0;
-}
-
-.projects-container {
-  max-width: 1320px;
-  margin: 0 auto;
-  padding: 0 20px;
+  padding: 48px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 48px;
 }
 
 .projects-header {
-  margin-bottom: 64px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  max-width: 1000px;
 }
 
 .projects-labels {
   display: flex;
-  justify-content: space-between;
-  font-size: 16px;
-  line-height: 1.5;
-  color: #999999;
-  margin-bottom: 8px;
+  gap: 12px;
+  font-family: 'Inter', sans-serif;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 48px;
+  letter-spacing: -1px;
+  color: #0E1011;
 }
 
 .projects-title {
-  font-size: 72px;
-  line-height: 1.1;
-  font-weight: 500;
-  margin: 0 0 24px 0;
-  color: #000;
+  font-family: 'Anton SC', sans-serif;
+  font-size: 140px;
+  font-weight: 400;
+  line-height: 100%;
+  text-transform: uppercase;
+  color: #0E1011;
 }
 
 .projects-subtitle {
+  font-family: 'Gambetta', serif;
   font-size: 20px;
-  line-height: 1.6;
-  color: #666666;
-  max-width: 720px;
+  font-style: italic;
+  font-weight: 500;
+  line-height: 100%;
+  color: rgba(14, 16, 17, 0.6);
 }
 
-.projects-gallery {
+.projects-gallery ul {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 64px 32px;
-  list-style: none;
-  padding: 0;
-  margin: 0;
+  grid-template-columns: repeat(2, 480px); /* Зменшено */
+  grid-gap: 48px;
+  justify-content: center;
 }
 
 .project-item {
   display: flex;
   flex-direction: column;
-  gap: 16px;
-  transition: transform 0.3s ease;
-  width: 100%; 
-}
-
-.project-item a {
-  display: block;
-  overflow: hidden;
-  position: relative;
-}
-
-.project-picture {
-  display: block;
-  width: 100%;
-  height: auto;
+  align-items: flex-start;
 }
 
 .project-image {
-  width: 100%; 
-  height: auto;
+  width: 480px; /* Зменшено */
+  height: 480px; /* Зменшено */
+  object-fit: cover;
   display: block;
-  object-fit: cover; 
+}
+
+.picture-picture-acme,
+.picture-picture-kanba,
+.picture-picture-utosia {
+  position: relative;
+  width: 480px; /* Зменшено */
+  height: 480px; /* Зменшено */
 }
 
 .project-logo {
-  width: 120px;
-  height: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  object-fit: contain;
+}
+
+.project-name {
+  font-family: 'Inter', sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 36px;
+  letter-spacing: -1px;
+  color: #0E1011;
   margin-top: 16px;
-  transition: transform 0.3s ease;
 }
 
-.project-meta {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+.project-year {
+  font-family: 'Gambetta', serif;
   font-size: 20px;
-  line-height: 1.4;
-  color: #000;
-  transition: transform 0.3s ease;
+  font-style: italic;
+  font-weight: 500;
+  line-height: 28px;
+  color: rgba(14, 16, 17, 0.6);
 }
 
-/* === Hover Effects === */
-.project-item:hover .project-image {
-  transform: scale(1.05);
-}
-
-.project-item:hover .project-meta {
-  transform: scale(1.05);
-}
-
-.project-item:hover .project-logo {
-  transform: scale(1.1);
-}
-
-/* === Responsive (Max-width 1920px) === */
+/* Медіа-запит для адаптивності на ширину екрана 1920px */
 @media (max-width: 1920px) {
+  .projects-labels {
+    font-size: 36px;
+    line-height: 44px;
+  }
+
   .projects-title {
-    font-size: 56px;
+    font-size: 120px;
   }
 
   .projects-subtitle {
     font-size: 18px;
   }
 
-  .projects-gallery {
-    gap: 48px 24px;
+  .projects-gallery ul {
+    grid-template-columns: repeat(2, 460px); /* Зменшено */
+    grid-gap: 40px;
+  }
+
+  .project-image {
+    width: 460px; /* Зменшено */
+    height: 460px; /* Зменшено */
+  }
+
+  .project-logo {
+    width: 100px; /* Зменшено */
+    height: 100px; /* Зменшено */
+  }
+
+  .project-name {
+    font-size: 20px;
+    line-height: 32px;
+  }
+
+  .project-year {
+    font-size: 18px;
   }
 }
+
+
 :root {
   --black: #000000;
   --gray: #8f8f8f;
