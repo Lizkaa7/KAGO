@@ -154,11 +154,13 @@
 }
 /* === Projects Section === */
 .projects-section {
-  padding: 48px;
+  padding: 96px;
+  background: var(--Background-Muted, #F8F8F8);
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  gap: 48px;
+  align-self: stretch;
+  
 }
 
 .projects-header {
@@ -166,36 +168,52 @@
   flex-direction: column;
   align-items: flex-start;
   gap: 16px;
-  max-width: 1000px;
+  max-width: 30px;
+  padding: 96px;
 }
 
-.projects-labels {
-  display: flex;
-  gap: 12px;
-  font-family: 'Inter', sans-serif;
-  font-size: 40px;
-  font-weight: 600;
-  line-height: 48px;
-  letter-spacing: -1px;
-  color: #0E1011;
+.projects-label {
+  display:flex-start;
+color: var(--Text-Muted, rgba(14, 16, 17, 0.60));
+font-family: Gambetta;
+font-size: 20px;
+font-style: italic;
+font-weight: 500;
+line-height: 100%; /* 32px */
 }
+.projects-number {
+  display:flex-end;
+  color: var(--Text-Muted, rgba(14, 16, 17, 0.60));
+font-family: Gambetta;
+font-size: 20px;
+font-style: italic;
+font-weight: 500;
+line-height: 100%; /* 32px */
+}
+
+
 
 .projects-title {
-  font-family: 'Anton SC', sans-serif;
-  font-size: 140px;
-  font-weight: 400;
-  line-height: 100%;
-  text-transform: uppercase;
-  color: #0E1011;
+  color: var(--Text-Default, #0E1011);
+/* Heading/XXLarge */
+font-family: 'Anton SC', sans-serif;
+font-size: 320px;
+font-style: normal;
+font-weight: 400;
+line-height: 100%; /* 320px */
+text-transform: uppercase;
 }
 
 .projects-subtitle {
-  font-family: 'Gambetta', serif;
-  font-size: 20px;
-  font-style: italic;
-  font-weight: 500;
-  line-height: 100%;
-  color: rgba(14, 16, 17, 0.6);
+  width: 1400px;
+  color: var(--Text-Default, #0E1011);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 120%; /* 96px */
+  letter-spacing: 0,5px;
+  
 }
 
 .projects-gallery ul {
