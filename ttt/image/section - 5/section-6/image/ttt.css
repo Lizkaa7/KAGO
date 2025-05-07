@@ -181,7 +181,7 @@ ul{
 /* align-items: center; */
 /* align-self: stretch; */
 
-
+ 
 }
 .projects-label {
 color: var(--Text-Muted, rgba(14, 16, 17, 0.60));
@@ -229,14 +229,19 @@ text-transform: uppercase;
 .projects-gallery ul {
   display: grid;
   grid-template-columns: repeat(2, 480px); /* Зменшено */
-  grid-gap: 48px;
+  row-gap: 0;
   justify-content: center;
+  column-gap: 48px;
+  list-style: none;
+  
 }
 
 .project-item {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  margin: 0;
+  padding: 0;
 }
 
 .project-image {
@@ -298,7 +303,8 @@ text-transform: uppercase;
 
   .projects-gallery ul {
     grid-template-columns: repeat(2, 460px); /* Зменшено */
-    grid-gap: 40px;
+    column-gap: 40px;
+    row-gap: 0px;
   }
 
   .project-image {
