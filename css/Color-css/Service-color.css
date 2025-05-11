@@ -1,58 +1,59 @@
-.hero-title {
+*{
+    background: #ffffff;
+}
+
+.title-large {
     color: #0E1011;
 }
-.hero-subtitle {
+.subtitle {
     color: #0E1011;
 }
-.section-service {
+
+
+.hero-info-subspecies {
+    color: #0E1011;
 }
-.section-service-divforpicture {
+.hero-info-text {
+    color: #0E1011;
 }
-.section-service-divforpicture-picture {
+
+.section-about-title {
+    color: #0E1011;
 }
-.section-service-title {
+
+.section-about-subtitle-paragraph {
+    color: #0E1011;
 }
-.section-service-intro-text {
+.section-about-paragraph {
+   color: #0E101199
 }
-.service-block {
+
+.srction-label{
+    color: var(--Text-Muted, rgba(14, 16, 17, 0.60));
 }
-.service-title {
+
+.section-title{
+    color: var(--Text-Default, #0E1011);
+
 }
-.service-description {
+
+.section-subtitle{
+color: var(--Text-Default, #0E1011);
 }
-.testimonial-section {
+
+.testimonial-description{
+    color: var(--Text-Muted, rgba(14, 16, 17, 0.60));
 }
-.section-label {
+
+.testimonial-content{
+    background: var(--Background-Muted, #F8F8F8);
 }
-.section-title {
+
+.arrow-button{
+    background-color: transparent;
+    background: var(--Background-Primary, #0E1011);
 }
-.section-subtitle {
-}
-.testimonial-content {
-}
-.testimonial-content-text {
-}
-.testimonial-content-text-quote-icon {
-}
-.testimonial-content-text-client-name {
-}
-.testimonial-title {
-}
-.testimonial-content-description {
-}
-.process-section {
-}
-.process-section-step {
-}
-.process-section-step-number {
-}
-.process-section-step-label {
-}
-.process-section-step-title {
-}
-.step-description {
-}
-.process-section-step-description {
-}
-.step-title {
+
+.arrow-left{
+    background-color: transparent;
 }
