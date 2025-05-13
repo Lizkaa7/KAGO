@@ -1,4 +1,4 @@
-*{
+body{
     background: #ffffff;
 }
 
@@ -9,6 +9,9 @@
     color: #0E1011;
 }
 
+.testimonial-content-description{
+    color: var(--Text-Muted, rgba(14, 16, 17, 0.60));
+}
 
 .hero-info-subspecies {
     color: #0E1011;
@@ -28,7 +31,7 @@
    color: #0E101199
 }
 
-.srction-label{
+.section-label{
     color: var(--Text-Muted, rgba(14, 16, 17, 0.60));
 }
 
@@ -45,9 +48,7 @@ color: var(--Text-Default, #0E1011);
     color: var(--Text-Muted, rgba(14, 16, 17, 0.60));
 }
 
-.testimonial-content{
-    background: var(--Background-Muted, #F8F8F8);
-}
+
 
 .arrow-button{
     background-color: transparent;
@@ -57,3 +58,17 @@ color: var(--Text-Default, #0E1011);
 .arrow-left{
     background-color: transparent;
 }
+
+.arrows{
+    background: transparent;
+    
+}
+
+.testimonial-content-text-client-name{
+    color: var(--Text-Muted, rgba(14, 16, 17, 0.60));
+}
+
+.testimonial-content-text-info{
+background: var(--Background-Muted, #F8F8F8);
+}
+
