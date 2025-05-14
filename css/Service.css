@@ -7,7 +7,6 @@
 
 body{
   width: 1920px;
-  
 }
 
 
@@ -123,10 +122,10 @@ body{
   
 .gallery-image-grid > *:nth-child(1) {
     grid-column: span 1;
-    position: relative; /* Потрібно для абсолютного позиціонування */
+    position: relative; 
     display: flex;
-    justify-content: center; /* по горизонталі */
-    align-items: center; /* по вертикалі */
+    justify-content: center;
+    align-items: center; 
   }
   
 .gallery-image-grid > *:nth-child(2) {
@@ -176,7 +175,7 @@ body{
     justify-content: space-between;
 align-items: center;
 flex-direction: row;
-gap: 1728px;
+width: 100%;
   }
 
   .section-label {
@@ -198,8 +197,6 @@ font-size: 240px;
 font-style: normal;
 font-weight: 400;
 line-height: 1;
-display: flex;
-justify-content: flex-start;
   }
 
   .section-subtitle {
@@ -213,11 +210,11 @@ letter-spacing: -2px;
 
   .testimonial-info{
     display: flex;
-padding: 96px;
 flex-direction: column;
 align-items: flex-start;
 gap: 96px;
-align-self: stretch;
+width: 1728px;
+margin:auto;
   }
 
   .section-grid{
@@ -225,7 +222,6 @@ display: flex;
 flex-direction: column;
 align-items: flex-start;
 gap: 16px;
-align-self: stretch;
   }
 
   .testimonial-content {
@@ -302,4 +298,24 @@ height: 60px;
 justify-content: center;
 gap: 10px;
 border: none; 
+  }
+
+  .section-title > span{
+    display: block;
+  }
+
+  .section-subtitle>span{
+    display: block;
+  }
+
+  .testimonial-title>span>span{
+    display: block;
+  }
+
+  .testimonial-content-description{
+    display: block;
+  }
+
+  .testimonial-section-head{
+    margin: 96px;
   }
