@@ -288,9 +288,14 @@ flex-shrink: 0;
   position: absolute;
   width: 100%;
   top: 50%;
-  transform: translateY(-50%)
 
 }
+
+.arrow:hover{
+transform: scale(1.22);
+    transition: transform 0.4s ease;
+}
+
 
   .arrow-button{
 width: 60px;
