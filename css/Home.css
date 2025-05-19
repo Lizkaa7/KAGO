@@ -1,4 +1,3 @@
-
 :root {
 
   --primary-color: #111111;
@@ -164,7 +163,7 @@
   }
 }
 
-
+/* === Projects Section === */
 .projects-section {
   padding: 96px;
   background: var(--Background-Muted, #F8F8F8);
@@ -179,11 +178,6 @@
   align-items: flex-start;
   padding: 80px;
   max-width: 960px;
-}
-
-.projects-labels{
-  display: flex;
-  gap: auto;
 }
 
 .projects-labels {
@@ -205,18 +199,18 @@
 
 .projects-number {
   color: var(--Text-Muted, rgba(14, 16, 17, 0.60));
-font-family: Gambetta;
-font-size: 20px;
-font-style: italic;
-font-weight: 500;
-line-height: 1.6; 
+  font-family: Gambetta;
+  font-size: 20px;
+  font-style: italic;
+  font-weight: 500;
+  line-height: 100%;
+  /* 32px */
 }
 
 
 
 .projects-title {
   color: var(--Text-Default, #0E1011);
-
   /* Heading/XXLarge */
   font-family: 'Anton SC', sans-serif;
   font-size: 320px;
@@ -225,7 +219,6 @@ line-height: 1.6;
   line-height: 100%;
   /* 320px */
   text-transform: uppercase;
-
 }
 
 .projects-subtitle {
@@ -235,10 +228,9 @@ line-height: 1.6;
   font-size: 80px;
   font-style: normal;
   font-weight: 600;
-
-  line-height: 1.2; 
-  letter-spacing: 0,5px;
-  
+  line-height: 120%;
+  /* 96px */
+  letter-spacing: 0.5px;
 
 }
 
@@ -264,13 +256,10 @@ line-height: 1.6;
 }
 
 .project-image {
-
   width: 480px;
   /* Зменшено */
   height: 480px;
   /* Зменшено */
-
-
   object-fit: cover;
   display: block;
   margin: 0;
@@ -283,7 +272,6 @@ line-height: 1.6;
 .picture-picture-goldline {
   position: relative;
   width: 480px;
-
   /* Зменшено */
   height: 480px;
   justify-content: center;
@@ -301,7 +289,6 @@ line-height: 1.6;
   max-width: 480px;
   padding: 0;
   margin: 0;
-
 }
 
 .project-logo {
@@ -310,6 +297,7 @@ line-height: 1.6;
   left: 50%;
   transform: translate(-50%, -50%);
   width: 120px;
+  /* або свій розмір */
   height: auto;
 }
 
@@ -358,12 +346,10 @@ line-height: 1.6;
   }
 
   .project-logo {
-
     width: 100px;
     /* Зменшено */
     height: 100px;
     /* Зменшено */
-
   }
 
   .project-name {
@@ -724,7 +710,13 @@ height: 696px;
   display: flex;
 }
 
+/* variables.css */
 
 
 
 
+
+
+
+
+/* Більше рішень для сайтів на https://gptonline.ai/ */
