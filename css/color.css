@@ -107,4 +107,9 @@ background: var(--Background-Muted, #F8F8F8);
    color: #0E101199
 }
 
+.blog-hero-headline{
+     color: var(--Text-Default, #0E1011);
+
+}
+
 
