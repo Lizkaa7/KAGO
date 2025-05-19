@@ -1,3 +1,12 @@
+
+:root {
+
+  --primary-color: #111111;
+  --secondary-color: #555555;
+  --accent-color: #777777;
+  --background-color: #ffffff;
+}
+
 body{
     background: #ffffff;
 }
@@ -71,4 +80,31 @@ color: var(--Text-Default, #0E1011);
 .testimonial-content-text-info{
 background: var(--Background-Muted, #F8F8F8);
 }
+
+.title-large {
+    color: #0E1011;
+}
+.subtitle {
+    color: #0E1011;
+}
+
+
+.hero-info-subspecies {
+    color: #0E1011;
+}
+.hero-info-text {
+    color: #0E1011;
+}
+
+.section-about-title {
+    color: #0E1011;
+}
+
+.section-about-subtitle-paragraph {
+    color: #0E1011;
+}
+.section-about-paragraph {
+   color: #0E101199
+}
+
 

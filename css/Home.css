@@ -1,14 +1,4 @@
 
-:root {
-
-  --primary-color: #111111;
-  --secondary-color: #555555;
-  --accent-color: #777777;
-  --background-color: #ffffff;
-}
-ul{ 
-  list-style-type: none;
-}
 .section-intro {
   padding: 80px 20px;
   max-width: 1200px;
@@ -155,7 +145,7 @@ ul{
     font-size: 14px;
   }
 }
-/* === Projects Section === */
+
 .projects-section {
   padding: 96px;
   background: var(--Background-Muted, #F8F8F8);
@@ -177,9 +167,6 @@ ul{
 .projects-labels{
   display: flex;
   gap: auto;
-  
-/* align-items: center; */
-/* align-self: stretch; */
 
  
 }
@@ -198,19 +185,18 @@ font-family: Gambetta;
 font-size: 20px;
 font-style: italic;
 font-weight: 500;
-line-height: 100%; /* 32px */
+line-height: 1,6; 
 }
 
 
 
 .projects-title {
   color: var(--Text-Default, #0E1011);
-/* Heading/XXLarge */
 font-family: 'Anton SC', sans-serif;
 font-size: 320px;
 font-style: normal;
 font-weight: 400;
-line-height: 100%; /* 320px */
+line-height: 1; 
 text-transform: uppercase;
 }
 
@@ -221,7 +207,7 @@ text-transform: uppercase;
   font-size: 80px;
   font-style: normal;
   font-weight: 600;
-  line-height: 120%; /* 96px */
+  line-height: 1,2; 
   letter-spacing: 0,5px;
   
 }
@@ -245,8 +231,8 @@ text-transform: uppercase;
 }
 
 .project-image {
-  width: 480px; /* Зменшено */
-  height: 480px; /* Зменшено */
+  width: 480px; 
+  height: 480px; 
   object-fit: cover;
   display: block;
 }
@@ -255,8 +241,8 @@ text-transform: uppercase;
 .picture-picture-kanba,
 .picture-picture-utosia {
   position: relative;
-  width: 480px; /* Зменшено */
-  height: 480px; /* Зменшено */
+  width: 480px;
+  height: 480px; 
 }
 
 .project-logo {
@@ -286,7 +272,7 @@ text-transform: uppercase;
   color: rgba(14, 16, 17, 0.6);
 }
 
-/* Медіа-запит для адаптивності на ширину екрана 1920px */
+
 @media (max-width: 1920px) {
   .projects-labels {
     font-size: 36px;
@@ -308,13 +294,13 @@ text-transform: uppercase;
   }
 
   .project-image {
-    width: 460px; /* Зменшено */
-    height: 460px; /* Зменшено */
+    width: 460px;
+    height: 460px;
   }
 
   .project-logo {
-    width: 100px; /* Зменшено */
-    height: 100px; /* Зменшено */
+    width: 100px; 
+    height: 100px; 
   }
 
   .project-name {
@@ -457,21 +443,10 @@ text-transform: uppercase;
     font-size: 32px;
   }
 }
-/* reset.css */
-/* reset.css */
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* variables.css */
-
-
-
-
-
-
-
-
-/* Більше рішень для сайтів на https://gptonline.ai/ */
