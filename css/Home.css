@@ -205,14 +205,11 @@
 
 .projects-number {
   color: var(--Text-Muted, rgba(14, 16, 17, 0.60));
-
-  font-family: Gambetta;
-  font-size: 20px;
-  font-style: italic;
-  font-weight: 500;
-  line-height: 100%;
-  /* 32px */
-
+font-family: Gambetta;
+font-size: 20px;
+font-style: italic;
+font-weight: 500;
+line-height: 1.6; 
 }
 
 
@@ -239,10 +236,9 @@
   font-style: normal;
   font-weight: 600;
 
-  line-height: 120%;
-  /* 96px */
-  letter-spacing: 0.5px;
-
+  line-height: 1.2; 
+  letter-spacing: 0,5px;
+  
 
 }
 
@@ -314,7 +310,6 @@
   left: 50%;
   transform: translate(-50%, -50%);
   width: 120px;
-  /* або свій розмір */
   height: auto;
 }
 
