@@ -10,6 +10,16 @@
 body{
     background: var(--background-color);
 }
+.hero-title {
+    color: #0E1011;
+}
+.hero-subtitle {
+    color: #0E1011;
+}
+
+body{
+    background: #ffffff;
+}
 
 .title-large {
     color: #0E1011;
@@ -19,7 +29,7 @@ body{
 }
 
 .testimonial-content-description{
-    color: var(--Text-Muted, rgba(14, 16, 17, 0.60));
+    color: #0E101099
 }
 
 .hero-info-subspecies {
@@ -41,27 +51,27 @@ body{
 }
 
 .section-label{
-    color: var(--Text-Muted, rgba(14, 16, 17, 0.60));
+    color: #0E101099
 }
 
 .section-title{
-    color: var(--Text-Default, #0E1011);
+    color: #0E1011;
 
 }
 
 .section-subtitle{
-color: var(--Text-Default, #0E1011);
+color:  #0E1011;
 }
 
 .testimonial-description{
-    color: var(--Text-Muted, rgba(14, 16, 17, 0.60));
+    color: #0E101099
 }
 
 
 
 .arrow-button{
     background-color: transparent;
-    background: var(--Background-Primary, #0E1011);
+    background:  #0E1011;
 }
 
 .arrow-left{
@@ -72,40 +82,57 @@ color: var(--Text-Default, #0E1011);
     background: transparent;
     
 }
+.arrow{
+    background-color: transparent;
+}
 
 .testimonial-content-text-client-name{
-    color: var(--Text-Muted, rgba(14, 16, 17, 0.60));
+    color: #0E101099
 }
 
 .testimonial-content-text-info{
-background: var(--Background-Muted, #F8F8F8);
+background:  #F8F8F8;
 }
+.section-service.accent > .section-service-information{
+    background-color: #F8F8F8;
+  }
 
-.title-large {
+  .section-service-title{
+    color:#0E1011;
+  }
+  .section-service-intro-text{
+    color:#0E1011;
+  }
+  .service-block{
+    border-bottom: solid #E8E8E8 ;
+  }
+  .service-title{
     color: #0E1011;
-}
-.subtitle {
-    color: #0E1011;
-}
+  }
+  
+  .service-description{
+    color: #0E101099;
+  }
+  .section-label{
+    color: #0E101099;
+  }
+  .section-title{
+    color:  #0E1011;
+  }
+  .section-subtitle{
+    color:  #0E1011;
+  }
+  .process-content-text{
+    color: #0E1011; 
+  }
+  .process-greytext-first{
+    color: #0E101099;
+  }
+  .process-greytext-second{
+    color: #0E101099;
+  }
 
 
-.hero-info-subspecies {
-    color: #0E1011;
-}
-.hero-info-text {
-    color: #0E1011;
-}
-
-.section-about-title {
-    color: #0E1011;
-}
-
-.section-about-subtitle-paragraph {
-    color: #0E1011;
-}
-.section-about-paragraph {
-   color: #0E101199
-}
 
 .blog-hero-headline{
      color: var(--Text-Default, #0E1011);

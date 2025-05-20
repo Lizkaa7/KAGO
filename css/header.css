@@ -1,7 +1,7 @@
 header {
     display: flex;
     justify-content: center;
-    align-items: end;
+    align-items: center;
     height: var(--header-height);
     padding: 0 var(--header-x-padding);
 
@@ -11,6 +11,15 @@ header {
     font-size: var(--components-navbar-font-size);
     letter-spacing: var(--components-navbar-letter-spacing);
     
+}
+
+.header-image-logo{
+    display: flex;
+width: 75px;
+height: 36px;
+padding: 0.5px 0.961px 0.5px 0.367px;
+justify-content: center;
+align-items: center;
 }
 
 header .header-nav {
