@@ -257,9 +257,7 @@
 
 .project-image {
   width: 480px;
-  /* Зменшено */
   height: 480px;
-  /* Зменшено */
   object-fit: cover;
   display: block;
   margin: 0;
@@ -272,7 +270,6 @@
 .picture-picture-goldline {
   position: relative;
   width: 480px;
-  /* Зменшено */
   height: 480px;
   justify-content: center;
   align-items: center;
@@ -297,7 +294,6 @@
   left: 50%;
   transform: translate(-50%, -50%);
   width: 120px;
-  /* або свій розмір */
   height: auto;
 }
 
@@ -347,9 +343,7 @@
 
   .project-logo {
     width: 100px;
-    /* Зменшено */
     height: 100px;
-    /* Зменшено */
   }
 
   .project-name {
@@ -539,7 +533,6 @@
 
 .service-image {
   max-width: 400px;
-  /* або будь-яке менше значення */
   flex: 1;
 }
 
@@ -606,7 +599,6 @@ li {
 
 .section-title-2 {
   color: var(--Text-Default, #0E1011);
-  /* Heading/XLarge */
   font-family: "Anton SC";
   font-size: 100px;
   font-style: normal;
@@ -716,7 +708,6 @@ height: 696px;
  flex-direction: initial;
 }
 
-/* variables.css */
 
 
 
