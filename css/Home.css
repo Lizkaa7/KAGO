@@ -677,6 +677,7 @@ height: 696px;
   padding-left: 80px;
   padding-top: 48px;
   padding-bottom: 80px;
+ 
 }
 
 .client-name {
@@ -686,6 +687,7 @@ height: 696px;
   line-height: 130%;
   letter-spacing: 0px;
   color: #1E1E1E;
+ 
 
 }
 
@@ -708,6 +710,10 @@ height: 696px;
 
 .testimonial-card-item-1-container {
   display: flex;
+}
+.client-photo-container {
+ display: flex;
+ flex-direction: initial;
 }
 
 /* variables.css */
