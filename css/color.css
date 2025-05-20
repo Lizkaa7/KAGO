@@ -116,7 +116,7 @@ background: var(--Background-Muted, #F8F8F8);
 :root {
     --font-anton:  "Anton SC", sans-serif;
     --font-inter: "Inter", sans-serif;
-    --font-gambetta-medium-italic: 'Gambetta-MediumItalic';
+    --font-gambetta-medium-italic: Gambetta;
     --font-weight-400: 400;
     --font-weight-500: 500;
     --font-weight-600: 600;
