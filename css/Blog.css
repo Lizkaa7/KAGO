@@ -1,80 +1,114 @@
 @import url("https://fonts.googleapis.com/css?family=Inter&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Anton SC&display=swap");
-body{
-  font-family: Inter, serif;
-}
-* {
+body {
   margin: 0;
+  padding: 0;
+  background-color: black;
 }
-.start{ background-color: black; ;
-padding: 2%;}
-.start1{
-  display: inline-block; padding-left: 23%; text-align: center;
+.a1 {
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
 }
-.start1>a{padding-left: 30px; font-size: 20px;}
-.start2{
-  display: inline-block; padding-left: 30%; text-align: right; font-size: 20px;}
-.title{
-  background-color: black; color:white; padding-left: 2%; 
-  padding-bottom: 100px;
+.a1 > nav > ul {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  margin-left: 30px;
 }
-.title>h2{ font-size: 60px; padding-right: 25%;
-  
+.a1 > nav > ul > a {
+  display: block;
+  margin: 10px;
+  padding: 0;
 }
-
-.conteiner{
-  display: inline-flex;
+.a1 > nav > ol {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  margin-right: 50px;
 }
-.box1>img {width: 450px; height: 500px; display:flex; margin-bottom: 40px;
+.a1 a {
+  color: white;
 }
-.box1>li{text-align:center;
-  list-style:none; font-style: italic;}
-.box1>p{text-align: left;
+span {
+  display: flex;
+  margin: 0;
+  color: darkgray;
+  font-size: 25px;
 }
-.box1>ol{margin-right: 20px; padding-bottom: 50px; padding-top: 30px;}
-.box2>li{text-align:center; 
-  list-style:none; font-style: italic;}
-.box2>img {width: 555px; height: 500px; margin-bottom: 40px;
+.images > img {
+  display: inline;
+  float: left;
+  width: 600px;
 }
-.box2{
-  background-color: rgb(19, 19, 18); color: white;
+.all {
+  text-align: left;
+  padding-left: 46%;
+  padding-right: 45px;
+  margin-top: 30%;
+  color: white;
 }
-.box2>ol{list-style: none; text-align: left; margin-right: 20px;padding-bottom: 50px; padding-top: 30px;}
-.box3>img {width: 402px; height: 500px; margin-bottom: 40px;}
-.box3>ol{list-style: none; text-align: left; margin-right: 20px;
-  padding-bottom: 50px; padding-top: 30px;}
-.box3>li{text-align:center;
-  list-style:none; font-style: italic;}
-.box3{
-  background-color: rgb(27, 27, 26); color: white;
+.all > p {
+  font-size: 30px;
 }
-.conteiner1{
-  display: inline-flex;
+.all > h1 {
+  font-size: 65px;
+  display: flex;
 }
-.box4>img {width: 450px; height: 500px; margin-bottom: 40px;
+.all > .end {
+  text-align: center;
 }
-.box4 {background-color: rgb(27, 27, 26); color: white;
+.text3 {
+  display: block;
+  text-align: left;
+  color: rgb(255, 254, 251);
+  background-color: rgb(34, 34, 34);
+  margin-top: 60px;
+  padding-left: 40px;
+  padding-right: 18%;
+  padding-top: 5px;
+  padding-bottom: 20px;
+  border-style: none;
 }
-.box4>li{text-align:center;
-  list-style:none; font-style: italic;}
-  .box4>ol{
-    list-style: none; text-align: left; margin-right: 20px;
-    padding-bottom: 50px; padding-top: 30px;}
-.box5>img {width: 555px; height: 500px; margin-bottom: 40px;
+.text3 > ol > h3 {
+  display: inline;
+  font-size: 70px;
+  margin-bottom: 5px;
 }
-.box5{background-color: rgb(19, 19, 17); color: white;}
-.box5>li{text-align:center;
-  list-style:none; font-style: italic;}
-  .box5>ol{list-style: none; text-align: left; margin-right: 20px;
-    padding-bottom: 50px; padding-top: 30px;}
-.box6>img {width: 402px; height: 500px; margin-bottom: 40px;}
-.box6{
-  background-color: rgb(27, 27, 26); color: white;
+.text3 > h2 {
+  display: inline;
+  font-size: 170px;
+  margin-left: 22px;
 }
-.box6>li{text-align:center;
-  list-style:none; font-style: italic;}
-  .box6>ol{list-style: none; text-align: left; margin-right: 20px;
-    padding-bottom: 50px; padding-top: 30px;}
+.text > h2 {
+  font-size: 40px;
+}
+.text {
+  margin-top: 12%;
+}
+.pro {
+  display: flex;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+.ser {
+  display: flex;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+.stu {
+  display: flex;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+.jou {
+  display: flex;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+.all > h1 {
+  margin-bottom: 10px;
+}
 .end > img {
   display: flex;
   border: 0;
@@ -94,22 +128,22 @@ padding: 2%;}
 .sec1 > p {
   font-style: italic;
   color: lightslategrey;
-  margin-left: 60px; padding-bottom: 20px;
+  margin-left: 60px;
 }
 .sec2 > p {
   font-style: italic;
   color: lightslategrey;
-  margin-left: 270px; padding-bottom: 20px;
+  margin-left: 270px;
 }
 .sec3 > p {
   font-style: italic;
   color: lightslategrey;
-  margin-left: 230px; padding-bottom: 20px;
+  margin-left: 230px;
 }
 .sec4 > p {
   font-style: italic;
   color: lightslategrey;
-  margin-left: 200px; padding-bottom: 20px;
+  margin-left: 200px;
 }
 .sec1 > ol {
   list-style: none;
