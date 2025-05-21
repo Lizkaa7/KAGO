@@ -1,4 +1,4 @@
-@import url("../../fonts/Gambetta/css/gambetta.css");
+
 
 footer {
     padding: 96px 96px 64px 96px;
@@ -11,6 +11,7 @@ footer .footer-logo {
     color: var(--footer-color);
     font-size: var(--heading-XLarge-font-size);
     text-transform: var(--heading-XLarge-case);
+    font-family: "Anton SC";
 }
 
 footer .footer-pages {
@@ -34,6 +35,14 @@ footer .footer-pages .footer-pages-wrapper h4:before {
 
 footer .footer-pages .footer-pages-wrapper h4:after {
     content: ')';
+}
+
+.footer-pages-wrapper-title{
+    font-family: Gambetta;
+font-size: 30px;
+font-style: italic;
+font-weight: 500;
+line-height: 100%; /* 30px */
 }
 
 footer .footer-pages .footer-pages-wrapper nav {

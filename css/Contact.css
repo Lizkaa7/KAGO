@@ -1,5 +1,21 @@
-@import url("../styles/parts/header.css");
-@import url("../styles/parts/footer.css");
+
+
+html, body {
+    font-family: var(--font-anton);
+    font-weight: var(--font-weight-400);
+    font-style: normal;   
+}
+
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    max-width: var(--breakpoint-max-width);
+    margin: auto;
+}
+
 
 body {
     --logo-color: var(--text-default-color);
@@ -143,4 +159,5 @@ label:after {
 .field-group {
     flex: 1;
 }
+
 

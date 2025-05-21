@@ -8,7 +8,7 @@
 }
 
 body{
-    background: #ffffff;
+    background: var(--background-color);
 }
 
 .title-large {
@@ -110,6 +110,56 @@ background: var(--Background-Muted, #F8F8F8);
 .blog-hero-headline{
      color: var(--Text-Default, #0E1011);
 
+}
+
+
+:root {
+    --font-anton:  "Anton SC", sans-serif;
+    --font-inter: "Inter", sans-serif;
+    --font-gambetta-medium-italic: Gambetta;
+    --font-weight-400: 400;
+    --font-weight-500: 500;
+    --font-weight-600: 600;
+    --letter-spacing: 0;
+    --line-height: 1;
+    --dark-color: #0E1011;
+    --wite-color: #FFFFFF;
+
+    --breakpoint-max-width: 1920px;
+
+    --text-default-color: var(--dark-color);
+    --text-default-inverse-color: var(--wite-color);
+
+    --header-height: 100px;
+    --header-x-padding: 96px;
+
+    --components-navbar-font: var(--font-inter);
+    --components-navbar-font-weight: 600;
+    --components-navbar-font-size: 22px;
+    --components-navbar-letter-spacing: 0;
+
+    --heading-XXLarge-font: var(--font-anton);
+    --heading-XXLarge-font-weight: var(--font-weight-400);
+    --heading-XXLarge-font-size: 320px;
+    --heading-XXLarge-line-height: var(--line-height);
+    --heading-XXLarge-letter-spacing: var(--letter-spacing);
+    --heading-XXLarge-case: uppercase;
+
+    --heading-XLarge-font: var(--font-anton);
+    --heading-XLarge-font-size: 240px;
+    --heading-XLarge-case: uppercase;
+
+    --heading-alt-small-font: var(--font-inter);
+    --heading-alt-small-font-weight: var(--font-weight-600);
+    --heading-alt-small-font-size: 80px;
+    --heading-alt-small-line-height: 1.2;
+    --heading-alt-small-letter-spacing: -2px;
+
+    --text-meta-font: var(--font-gambetta-medium-italic);
+    --text-meta-font-weight: var(--font-weight-500);
+    --text-meta-font-size: 30px;
+
+    --input-color: #6c7d80;
 }
 
 
