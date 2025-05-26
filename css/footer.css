@@ -42,7 +42,7 @@ footer .footer-pages .footer-pages-wrapper h4:after {
 font-size: 30px;
 font-style: italic;
 font-weight: 500;
-line-height: 100%; /* 30px */
+line-height: 1;
 }
 
 footer .footer-pages .footer-pages-wrapper nav {
@@ -65,7 +65,7 @@ footer .footer-links {
     font-family: var(--components-navbar-font);
     font-weight: var(--components-navbar-font-weight);
     font-size: var(--components-navbar-font-size);
-    /* text-decoration: underline; */
+
 }
 
 footer .footer-links a {

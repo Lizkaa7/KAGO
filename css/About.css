@@ -38,7 +38,7 @@
 
 .team__title {
     padding-left: 96px;
-    color: var(--Text-Default, #0E1011);
+    color:  var(--primary-color);
     width: 1700px;
     height: 480px;
     font-family: "Anton SC";
@@ -51,7 +51,7 @@
 
 .team__member-1 {
     width: 640px;
-    background: #F8F8F8;
+    background: var(--gray-light);
 }
 
 .team__member-container {
@@ -99,7 +99,7 @@
     font-style: italic;
     font-size: 30px;
     line-height: 100%;
-    color: #0E101199;
+    color: var(--primary-color);
 }
 
 .team__name {
@@ -109,7 +109,7 @@
     font-size: 64px;
     line-height: 110%;
     text-transform: uppercase;
-    color: #0E1011;
+    color:  var(--primary-color);
     width: 300px;
 
 }
@@ -122,7 +122,7 @@
     font-weight: 400;
     font-size: 22px;
     line-height: 170%;
-    color: #0E101199;
+    color:  var(--primary-color);
 }
 
 
@@ -145,7 +145,7 @@
 
 .awards-title {
     margin: 0;
-    color: var(--Text-Default, #0E1011);
+    color:  var(--primary-color);
     font-family: "Anton SC";
     font-size: 300px;
     font-style: normal;
@@ -158,7 +158,7 @@
     max-width: 900px;
     padding-top: 16px;
     margin: 0;
-    color: var(--Text-Default, #0E1011);
+    color:  var(--primary-color);
     font-family: Inter;
     font-size: 60px;
     font-style: normal;
@@ -203,13 +203,13 @@
     font-size: 24.8px;
     line-height: 110%;
     margin: 0;
-    color: #FFFFFF;
+    color: var(--background-color);
 
 }
 
 .award-certificate-title {
     padding-top: 73.5px;
-    color: #FFF;
+    color: var(--background-color);
     font-family: Helvetica;
     font-size: 11.022px;
     font-style: normal;

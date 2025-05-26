@@ -1,10 +1,3 @@
-:root {
-
-  --primary-color: #111111;
-  --secondary-color: #555555;
-  --accent-color: #777777;
-  --background-color: #ffffff;
-}
 
 .studio-first {
   display: flex;
@@ -45,7 +38,7 @@
 .book-image {
   width: 100%;
   height: auto;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 20px var(--primary-color);
 }
 
 .intro-text {
@@ -165,7 +158,7 @@
 
 .projects-section {
   padding: 96px;
-  background: var(--Background-Muted, #F8F8F8);
+  background: var(--gray-light);
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -208,7 +201,7 @@
 
 
 .projects-title {
-  color: var(--Text-Default, #0E1011);
+  color: var( --primary-color);
   font-family: 'Anton SC', sans-serif;
   font-size: 320px;
   font-style: normal;
@@ -219,7 +212,7 @@
 
 .projects-subtitle {
   width: 1400px;
-  color: var(--Text-Default, #0E1011);
+  color: var( --primary-color);
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   font-size: 80px;
   font-style: normal;
@@ -298,7 +291,7 @@
   font-weight: 600;
   line-height: 36px;
   letter-spacing: -1px;
-  color: #0E1011;
+  color: var(--primary-color);
   margin-top: 0;
 }
 
@@ -351,17 +344,14 @@
   }
 }
 
-:root {
-  --black: #000000;
-  --gray: #8f8f8f;
-  --white: #ffffff;
+
 }
 
 .services-section {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  background-color: var(--white);
+  background-color: var(--background-color);
 }
 
 .services-header {
@@ -451,7 +441,7 @@
   font-family: "Gambetta";
   font-weight: 1000;
   line-height: 1;
-  color: var(--black);
+  color: var(--primary-color);
   font-style: normal;
   text-transform: uppercase;
 }
@@ -459,7 +449,7 @@
 .services-description {
   font-size: 80px;
   line-height: 1.4;
-  color: var(--black);
+  color: var(--primary-color);
   max-width: 70%;
   font-family: Inter;
   font-style: normal;
@@ -487,18 +477,16 @@
   justify-content: center;
   align-items: flex-start;
   align-self: stretch;
-  background: var(--Background-Muted, #F8F8F8);
+  background: var(--gray-light);
 }
 
 .service-name {
-  color: var(--Text-Default, #0E1011);
-  /* Heading/Small */
+  color: var(--primary-color);
   font-family: "Anton SC";
   font-size: 40px;
   font-style: normal;
   font-weight: 900;
   line-height: 100%;
-  /* 128px */
   text-transform: uppercase;
   line-height: 1.1;
   margin-bottom: 0.6px;
@@ -508,7 +496,7 @@
 .service-info {
   font-size: 16px;
   line-height: 1.5;
-  color: var(--black);
+  color: var(--primary-color);
   margin-bottom: 32px;
 }
 
@@ -523,7 +511,7 @@
 .service-list {
   font-size: 14px;
   line-height: 1.5;
-  color: var(--black);
+  color: var(--primary-color);
 }
 
 .service-image {
@@ -593,7 +581,7 @@ li {
 
 
 .section-title-2 {
-  color: var(--Text-Default, #0E1011);
+  color:var(--primary-color);
   font-family: "Anton SC";
   font-size: 100px;
   font-style: normal;
@@ -615,7 +603,7 @@ height: 696px;
   height: 696px;
   padding: 80px;
   gap: 96px;
-  background: #F8F8F8;
+  background: var(--gray-light);
 }
 
 
@@ -641,7 +629,7 @@ height: 696px;
   font-size: 20px;
   line-height: 180%;
   letter-spacing: 0px;
-  color: #0E101199;
+  color: var(--primary-color);
 
 }
 
@@ -686,7 +674,7 @@ height: 696px;
   font-size: 20px;
   line-height: 100%;
   letter-spacing: 0%;
-  color: #0E101199;
+  color:var(--primary-color);
 
 }
 
@@ -711,4 +699,3 @@ height: 696px;
 
 
 
-/* Більше рішень для сайтів на https://gptonline.ai/ */

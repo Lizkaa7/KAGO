@@ -20,14 +20,14 @@ html, body {
 body {
     --logo-color: var(--text-default-color);
 
-    --footer-background-color: var(--dark-color);
-    --footer-color: var(--wite-color);
-    --footer-meta-color: var(--wite-color);
+    --footer-background-color: var(--primary-color);
+    --footer-color:  var(--background-color);
+    --footer-meta-color:  var(--background-color);
 
-    --background-color: var(--wite-color);
-    --font-color: var(--dark-color);
+    --background-color:  var(--background-color);
+    --font-color: var(--primary-color);
 
-    --form-meta-color: var(--dark-color);
+    --form-meta-color: var(--primary-color);
 
     background-color: var(--background-color);
     color: var(--font-color);
@@ -36,12 +36,12 @@ body {
 body.inverse {
     --logo-color: var(--text-default-inverse-color);
 
-    --footer-background-color: var(--wite-color);
-    --footer-color: var(--dark-color);
-    --footer-meta-color: var(--dark-color);
+    --footer-background-color:  var(--background-color);
+    --footer-color: var(--primary-color);
+    --footer-meta-color: var(--primary-color);
 
-    --background-color: var(--dark-color);
-    --font-color: var(--wite-color);
+    --background-color:var(--primary-color);
+    --font-color:  var(--background-color);
 
 }
 
@@ -123,7 +123,7 @@ textarea {
 }
 
 .submit-button {
-    background-color: #000;
+    background-color: var(--primary-color);
     color: #fff;
     font-weight: bold;
     font-size: 18px;

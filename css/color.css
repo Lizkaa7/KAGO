@@ -1,77 +1,74 @@
 
 :root {
 
-  --primary-color: #111111;
+  --primary-color: #0E1011;
   --secondary-color: #555555;
   --accent-color: #777777;
-  --background-color: #ffffff;
+  --background-color: #FFF;
+  --gray-light:#F8F8F8;
 }
 
 body{
     background: var(--background-color);
 }
 .hero-title {
-    color: #0E1011;
+    color:var(--primary-color);
 }
 .hero-subtitle {
-    color: #0E1011;
-}
-
-body{
-    background: #ffffff;
+    color:var(--primary-color);
 }
 
 .title-large {
-    color: #0E1011;
+    color: var(--primary-color);
 }
 .subtitle {
-    color: #0E1011;
+    color: var(--primary-color);
 }
 
 .testimonial-content-description{
-    color: #0E101099
+    color: var(--primary-color);
 }
 
 .hero-info-subspecies {
-    color: #0E1011;
+    color: var(--primary-color);
 }
 .hero-info-text {
-    color: #0E1011;
+    color: var(--primary-color);
 }
 
 .section-about-title {
-    color: #0E1011;
+    color: var(--primary-color);
 }
 
 .section-about-subtitle-paragraph {
-    color: #0E1011;
+    color: var(--primary-color);
 }
 .section-about-paragraph {
-   color: #0E101199
+   color: var(--primary-color);
 }
 
 .section-label{
-    color: #0E101099
+    color: var(--primary-color);
 }
 
 .section-title{
-    color: #0E1011;
+    color: var(--primary-color);
 
 }
 
 .section-subtitle{
-color:  #0E1011;
+color:  var(--primary-color);
 }
 
 .testimonial-description{
-    color: #0E101099
+    color: var(--primary-color);
 }
 
 
 
 .arrow-button{
     background-color: transparent;
-    background:  #0E1011;
+    background:  var(--primary-color);
 }
 
 .arrow-left{
@@ -87,55 +84,55 @@ color:  #0E1011;
 }
 
 .testimonial-content-text-client-name{
-    color: #0E101099
+    color: var(--primary-color);
 }
 
 .testimonial-content-text-info{
-background:  #F8F8F8;
+background:  var(--gray-light);
 }
 .section-service.accent > .section-service-information{
-    background-color: #F8F8F8;
+    background-color: var(--gray-light);
   }
 
   .section-service-title{
-    color:#0E1011;
+    color:var(--primary-color);
   }
   .section-service-intro-text{
-    color:#0E1011;
+    color:var(--primary-color);
   }
   .service-block{
-    border-bottom: solid #E8E8E8 ;
+    border-bottom: solid var(--gray-light) ;
   }
   .service-title{
-    color: #0E1011;
+    color: var(--primary-color);
   }
   
   .service-description{
-    color: #0E101099;
+    color: var(--primary-color);
   }
   .section-label{
-    color: #0E101099;
+    color: var(--primary-color);
   }
   .section-title{
-    color:  #0E1011;
+    color:  var(--primary-color);
   }
   .section-subtitle{
-    color:  #0E1011;
+    color:  var(--primary-color);
   }
   .process-content-text{
-    color: #0E1011; 
+    color: var(--primary-color); 
   }
   .process-greytext-first{
-    color: #0E101099;
+    color: var(--primary-color);
   }
   .process-greytext-second{
-    color: #0E101099;
+    color: var(--primary-color);
   }
 
 
 
 .blog-hero-headline{
-     color: var(--Text-Default, #0E1011);
+     color: var(--primary-color);
 
 }
 
@@ -149,13 +146,11 @@ background:  #F8F8F8;
     --font-weight-600: 600;
     --letter-spacing: 0;
     --line-height: 1;
-    --dark-color: #0E1011;
-    --wite-color: #FFFFFF;
 
     --breakpoint-max-width: 1920px;
 
-    --text-default-color: var(--dark-color);
-    --text-default-inverse-color: var(--wite-color);
+    --text-default-color: var(--primary-color);
+    --text-default-inverse-color: var(--background-color);
 
     --header-height: 100px;
     --header-x-padding: 96px;
