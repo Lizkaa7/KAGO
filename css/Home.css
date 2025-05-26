@@ -118,44 +118,6 @@
   transform: scale(1.1);
 }
 
-@media (max-width: 728px) {
-  .intro-wrapper {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .intro-image,
-  .intro-text {
-    flex: 0 0 100%;
-    max-width: 100%;
-  }
-
-  .intro-text {
-    text-align: center;
-    align-items: center;
-  }
-
-  .intro-brand {
-    text-align: center;
-  }
-
-  .studio-name {
-    font-size: 36px;
-  }
-
-  .tagline-text {
-    font-size: 20px;
-  }
-
-  .section-title {
-    font-size: 28px;
-  }
-
-  .section-description {
-    font-size: 14px;
-  }
-}
-
 .projects-section {
   padding: 96px;
   background: var(--gray-light);
@@ -305,7 +267,6 @@
 }
 
 
-@media (max-width: 1920px) {
   .projects-labels {
     font-size: 36px;
     line-height: 44px;
@@ -342,10 +303,6 @@
   .project-year {
     font-size: 18px;
   }
-}
-
-
-}
 
 .services-section {
   display: flex;
@@ -530,8 +487,6 @@
   transform: scale(1.05);
 }
 
-
-@media (max-width: 1920px) {
   .services-title {
     font-size: 72px;
   }
@@ -547,8 +502,6 @@
   .service-name {
     font-size: 50px;
   }
-}
-
 
 li {
   list-style-type: none;
