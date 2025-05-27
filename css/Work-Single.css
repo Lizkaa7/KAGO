@@ -121,10 +121,10 @@ ul{
   
 .gallery-image-grid > *:nth-child(1) {
     grid-column: span 1;
-    position: relative; /* Потрібно для абсолютного позиціонування */
+    position: relative; 
     display: flex;
-    justify-content: center; /* по горизонталі */
-    align-items: center; /* по вертикалі */
+    justify-content: center; 
+    align-items: center; 
   }
   
 .gallery-image-grid > *:nth-child(2) {
@@ -142,12 +142,13 @@ ul{
 .gallery-image-grid > *:nth-child(5) {
     grid-column: span 1;
   }
-  
+  /*
   @media (max-width: 1920px) {
     .gallery-image-grid {
       grid-template-columns: repeat(2, 1fr);
     }
   }
+    */
   
 .gallery-image-grid img {
     width: 100%;

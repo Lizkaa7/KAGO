@@ -2,13 +2,13 @@
 
 footer {
     padding: 96px 96px 64px 96px;
-    background-color: var(--footer-background-color);
+    background-color: var(--primary-color);
 
 }
 
-footer .footer-logo {
+ .footer-logo {
     margin-bottom: 312px;
-    color: var(--footer-color);
+    color: var(--white-color);
     font-size: var(--heading-XLarge-font-size);
     text-transform: var(--heading-XLarge-case);
     font-family: "Anton SC";
@@ -25,7 +25,6 @@ footer .footer-pages .footer-pages-wrapper h4 {
     font-family: var(--text-meta-font);
     font-weight: var(--text-meta-font-weight);
     font-size: var(--text-meta-font-size);
-    color: var(--footer-meta-color);
     opacity: .6;
 }
 
@@ -50,7 +49,7 @@ footer .footer-pages .footer-pages-wrapper nav {
     font-weight: var(--components-navbar-font-weight);
     font-size: 26px;
     line-height: 1.3;
-    color: var(--footer-color);
+    color: var(--white-color);
     
 }
 
@@ -61,7 +60,7 @@ footer .footer-pages .footer-pages-wrapper li {
 footer .footer-links {
     display: flex;
     justify-content: space-between;
-    color: var(--footer-color);
+    color: var(--white-color);
     font-family: var(--components-navbar-font);
     font-weight: var(--components-navbar-font-weight);
     font-size: var(--components-navbar-font-size);

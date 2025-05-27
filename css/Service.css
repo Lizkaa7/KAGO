@@ -88,7 +88,7 @@ text-transform: uppercase;
 }
 
 .service-title {
-color: #0E1011;
+color: var(--primary-color);
 font-family: 'Inter', sans-serif;
 font-size: 40px;
 font-style: normal;
@@ -228,6 +228,8 @@ justify-content: flex-start;
 margin-bottom: 361.07px;
 width: 74.092px;
 height: 46.934px;
+fill: var( --primary-color);
+
 }
 
 .testimonial-content-text{
@@ -314,7 +316,7 @@ justify-content: flex-start;
 margin-bottom: 361.07px;
 width: 74.092px;
 height: 46.934px;
-font-family: "Anton", sans-serif;
+font-family: "Anton SC";
 font-size: 160px;
 font-style: normal;
 font-weight: 400;
@@ -347,3 +349,7 @@ line-height: 180%;
   align-items: flex-start;
 }
 
+.process-content-text-info{
+  display: flex;
+  flex-direction: column;
+}

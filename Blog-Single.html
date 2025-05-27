@@ -10,17 +10,12 @@
     
   </head>
   <body>
-    <div class="images">
-      <img
-        src="./"
-        alt="imeig"
-      />
-    </div>
-    <div class="a1">
+    <header>
+       <div class="a1">
       <nav>
         <ul>
           <div class="pro">
-            <li><a href="#">Projcts</a></li>
+            <li><a href="#">Projects</a></li>
           </div>
           <div class="ser">
             <li><a href="#">Service</a></li>
@@ -35,10 +30,30 @@
       </nav>
       <nav>
         <ol>
-          <li><a href="#">Let`s Talk</a></li>
+          <li class="nav-talk"><a href="#">Let`s Talk</a></li>
         </ol>
       </nav>
     </div>
+    </header>
+   
+    <div>
+      <picture class="images">
+
+            <source
+                        srcset="./image/Service/Image7.1x.webp 1x, ./image/Service/Image7.2x.webp 2x"    
+                        type="image/webp">
+<source
+srcset="./image/Service/Image7.1x.webp 1x, ./image/Service/Image7.2x.webp 2x"    
+                        type="image/avif">
+<source
+srcset="./image/Blog-Single/Image.jpg 1x, ./image/Blog-Single/Image@2x.jpg 2x"    
+                        type="image/jpg">
+
+       <img src="./image/Blog-Single/boost.jpg" alt="imeig"/> 
+      </picture>
+      
+    </div>
+    
     <div class="all">
       <h1>Boost Engagement with Thoughtful UX Design</h1>
       <p>
@@ -48,7 +63,7 @@
         >
       </p>
       <div class="text">
-        <h2>Prioritizing User Needs &nbsp;</h2>
+        <h2>Prioritizing User Needs</h2>
         <p>
           the heart of thoughtful UX design is a deep understanding of the user.
           Boosting engagement starts with knowing who your users are, what they

@@ -34,7 +34,7 @@
 
 .team__title {
     padding-left: 96px;
-    color: var(--Text-Default, #0E1011);
+    color: var(--primary-color);
     width: 1700px;
     height: 480px;
     font-family: "Anton SC";
@@ -47,7 +47,7 @@
 
 .team__member-1 {
     width: 640px;
-    background: #F8F8F8;
+    background: var(--gray-light);
 }
 .team__member-container {
     display: flex;
@@ -115,5 +115,5 @@
     font-weight: 400;
     font-size: 22px;
     line-height: 170%;
-    color: #0E101199;
+    color: var(--primary-color);
 }

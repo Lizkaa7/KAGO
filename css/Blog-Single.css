@@ -4,12 +4,21 @@ body {
   margin: 0;
   padding: 0;
   background-color:var(--background-color);
+  position: relative;
 }
 .a1 {
   display: flex;
   justify-content: space-between;
   font-size: 20px;
+  position: absolute;
+  width: 50%;
+  padding-left: 960px;
 }
+
+.nav-talk{
+border-bottom: 1px solid var(--primary-color);
+}
+
 .a1 > nav > ul {
   display: flex;
   list-style: none;
@@ -36,10 +45,9 @@ span {
   color: darkgray;
   font-size: 25px;
 }
-.images > img {
+.images{
   display: inline;
-  float: left;
-  width: 600px;
+  width: 50%;
 }
 .all {
   text-align: left;

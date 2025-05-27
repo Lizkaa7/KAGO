@@ -2,143 +2,13 @@
 :root {
 
   --primary-color: #0E1011;
-  --secondary-color: #555555;
-  --accent-color: #777777;
-  --background-color: #FFF;
+  --Text-Muted:rgba(14, 16, 17, 0.60);
+  --white-color: #FFF;
   --gray-light:#F8F8F8;
-}
-
-body{
-    background: var(--background-color);
-}
-.hero-title {
-    color:var(--primary-color);
-}
-.hero-subtitle {
-    color:var(--primary-color);
-}
-
-.title-large {
-    color: var(--primary-color);
-}
-.subtitle {
-    color: var(--primary-color);
-}
-
-.testimonial-content-description{
-    color: var(--primary-color);
-}
-
-.hero-info-subspecies {
-    color: var(--primary-color);
-}
-.hero-info-text {
-    color: var(--primary-color);
-}
-
-.section-about-title {
-    color: var(--primary-color);
-}
-
-.section-about-subtitle-paragraph {
-    color: var(--primary-color);
-}
-.section-about-paragraph {
-   color: var(--primary-color);
-}
-
-.section-label{
-    color: var(--primary-color);
-}
-
-.section-title{
-    color: var(--primary-color);
-
-}
-
-.section-subtitle{
-color:  var(--primary-color);
-}
-
-.testimonial-description{
-    color: var(--primary-color);
-}
+  --gray-color:#EEE;
 
 
-
-.arrow-button{
-    background-color: transparent;
-    background:  var(--primary-color);
-}
-
-.arrow-left{
-    background-color: transparent;
-}
-
-.arrows{
-    background: transparent;
-    
-}
-.arrow{
-    background-color: transparent;
-}
-
-.testimonial-content-text-client-name{
-    color: var(--primary-color);
-}
-
-.testimonial-content-text-info{
-background:  var(--gray-light);
-}
-.section-service.accent > .section-service-information{
-    background-color: var(--gray-light);
-  }
-
-  .section-service-title{
-    color:var(--primary-color);
-  }
-  .section-service-intro-text{
-    color:var(--primary-color);
-  }
-  .service-block{
-    border-bottom: solid var(--gray-light) ;
-  }
-  .service-title{
-    color: var(--primary-color);
-  }
-  
-  .service-description{
-    color: var(--primary-color);
-  }
-  .section-label{
-    color: var(--primary-color);
-  }
-  .section-title{
-    color:  var(--primary-color);
-  }
-  .section-subtitle{
-    color:  var(--primary-color);
-  }
-  .process-content-text{
-    color: var(--primary-color); 
-  }
-  .process-greytext-first{
-    color: var(--primary-color);
-  }
-  .process-greytext-second{
-    color: var(--primary-color);
-  }
-
-
-
-.blog-hero-headline{
-     color: var(--primary-color);
-
-}
-
-
-:root {
-    --font-anton:  "Anton SC", sans-serif;
+      --font-anton:  "Anton SC", sans-serif;
     --font-inter: "Inter", sans-serif;
     --font-gambetta-medium-italic: Gambetta;
     --font-weight-400: 400;
@@ -148,9 +18,6 @@ background:  var(--gray-light);
     --line-height: 1;
 
     --breakpoint-max-width: 1920px;
-
-    --text-default-color: var(--primary-color);
-    --text-default-inverse-color: var(--background-color);
 
     --header-height: 100px;
     --header-x-padding: 96px;
@@ -184,4 +51,198 @@ background:  var(--gray-light);
     --input-color: #6c7d80;
 }
 
+body{
+    background: var(--white-color);
+    transition: color 3s;
+}
+.hero-title {
+    color:var(--primary-color);
+}
+.hero-subtitle {
+    color:var(--primary-color);
+}
+
+.title-large {
+    color: var(--primary-color);
+}
+.subtitle {
+    color: var(--primary-color);
+}
+
+.testimonial-content-description{
+    color: var(--Text-Muted);
+}
+
+.hero-info-subspecies {
+    color: var(--primary-color);
+}
+.hero-info-text {
+    color: var(--primary-color);
+}
+
+.section-about-title {
+    color: var(--primary-color);
+}
+
+.section-about-subtitle-paragraph {
+    color: var(--primary-color);
+}
+.section-about-paragraph {
+   color: var(--primary-color);
+}
+
+.section-label{
+    color: var(--Text-Muted);
+}
+
+.section-title{
+    color: var(--primary-color);
+
+}
+
+.section-subtitle{
+color:  var(--primary-color);
+}
+
+.testimonial-description{
+    color: var(--primary-color);
+}
+
+
+
+.arrow-button{
+    background-color: transparent;
+    background: #0E1011;
+}
+
+.arrow-left{
+    background-color: transparent;
+}
+
+.arrows{
+    background: transparent;
+    
+}
+.arrow{
+    background-color: transparent;
+}
+
+.testimonial-content-text-client-name{
+    color: var(--Text-Muted);
+}
+
+.testimonial-title{
+  color: var(--primary-color);
+}
+
+.testimonial-content-text-info{
+background:  var(--gray-light);
+}
+.section-service.accent > .section-service-information{
+    background-color: var(--gray-light);
+  }
+
+  .section-service-title{
+    color:var(--primary-color);
+  }
+  .section-service-intro-text{
+    color:var(--primary-color);
+  }
+  .service-block{
+    border-bottom: solid var(--gray-light) ;
+  }
+  .service-title{
+    color: var(--primary-color);
+  }
+  
+  .service-description{
+    color: var(--Text-Muted);
+  }
+  .section-label{
+    color: var(--Text-Muted);
+  }
+  .section-title{
+    color:  var(--primary-color);
+  }
+  .section-subtitle{
+    color:  var(--primary-color);
+  }
+  .process-content-text{
+    color: var(--primary-color); 
+  }
+  .process-greytext-first{
+    color: var(--Text-Muted);
+  }
+  .process-greytext-second{
+    color: var(--Text-Muted);
+  }
+
+  .team__label{
+    color: var(--Text-Muted) ;
+  }
+
+  .team__number{
+    color: var(--Text-Muted);
+  }
+
+
+.blog-hero-headline{
+     color: var(--primary-color);
+
+}
+
+
+.footer-logo{
+  color: var(--white-color);
+}
+
+
+.footer-pages-wrapper-title{
+  color: var(--white-color);
+}
+
+.team__title {
+    color:  var(--primary-color);
+    
+}
+
+.team__member-1 {
+    background: var(--gray-light);
+}
+
+.team__member {
+    width: 640px;
+    background: var(--gray-color);
+}
+
+.team__role{
+  color: var(--primary-color);
+}
+
+.team__name{
+  color: var(--primary-color);
+}
+
+.team__bio{
+  color: var(--primary-color);
+}
+
+.awards-first{
+  color: var(--Text-Muted);
+}
+
+.awards-title{
+  color: var(--primary-color);
+}
+
+.awards-description{
+  color: var(--primary-color);
+}
+
+.award-card-1{
+   background: #4A61E2;
+}
+
+.award-title-1{
+    color: #ACB5F7;}
 
