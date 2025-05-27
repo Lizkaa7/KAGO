@@ -2,14 +2,57 @@
 :root {
 
   --primary-color: #0E1011;
-  --secondary-color: #555555;
-  --accent-color: #777777;
-  --background-color: #FFF;
+  --Text-Muted:rgba(14, 16, 17, 0.60);
+  --white-color: #FFF;
   --gray-light:#F8F8F8;
+  --gray-color:#EEE;
+
+
+      --font-anton:  "Anton SC", sans-serif;
+    --font-inter: "Inter", sans-serif;
+    --font-gambetta-medium-italic: Gambetta;
+    --font-weight-400: 400;
+    --font-weight-500: 500;
+    --font-weight-600: 600;
+    --letter-spacing: 0;
+    --line-height: 1;
+
+    --breakpoint-max-width: 1920px;
+
+    --header-height: 100px;
+    --header-x-padding: 96px;
+
+    --components-navbar-font: var(--font-inter);
+    --components-navbar-font-weight: 600;
+    --components-navbar-font-size: 22px;
+    --components-navbar-letter-spacing: 0;
+
+    --heading-XXLarge-font: var(--font-anton);
+    --heading-XXLarge-font-weight: var(--font-weight-400);
+    --heading-XXLarge-font-size: 320px;
+    --heading-XXLarge-line-height: var(--line-height);
+    --heading-XXLarge-letter-spacing: var(--letter-spacing);
+    --heading-XXLarge-case: uppercase;
+
+    --heading-XLarge-font: var(--font-anton);
+    --heading-XLarge-font-size: 240px;
+    --heading-XLarge-case: uppercase;
+
+    --heading-alt-small-font: var(--font-inter);
+    --heading-alt-small-font-weight: var(--font-weight-600);
+    --heading-alt-small-font-size: 80px;
+    --heading-alt-small-line-height: 1.2;
+    --heading-alt-small-letter-spacing: -2px;
+
+    --text-meta-font: var(--font-gambetta-medium-italic);
+    --text-meta-font-weight: var(--font-weight-500);
+    --text-meta-font-size: 30px;
+
+    --input-color: #6c7d80;
 }
 
 body{
-    background: var(--background-color);
+    background: var(--white-color);
 }
 .hero-title {
     color:var(--primary-color);
@@ -129,6 +172,13 @@ background:  var(--gray-light);
     color: var(--primary-color);
   }
 
+  .team__label{
+    color: var(--Text-Muted) ;
+  }
+
+  .team__number{
+    color: var(--Text-Muted);
+  }
 
 
 .blog-hero-headline{
@@ -137,51 +187,58 @@ background:  var(--gray-light);
 }
 
 
-:root {
-    --font-anton:  "Anton SC", sans-serif;
-    --font-inter: "Inter", sans-serif;
-    --font-gambetta-medium-italic: Gambetta;
-    --font-weight-400: 400;
-    --font-weight-500: 500;
-    --font-weight-600: 600;
-    --letter-spacing: 0;
-    --line-height: 1;
-
-    --breakpoint-max-width: 1920px;
-
-    --text-default-color: var(--primary-color);
-    --text-default-inverse-color: var(--background-color);
-
-    --header-height: 100px;
-    --header-x-padding: 96px;
-
-    --components-navbar-font: var(--font-inter);
-    --components-navbar-font-weight: 600;
-    --components-navbar-font-size: 22px;
-    --components-navbar-letter-spacing: 0;
-
-    --heading-XXLarge-font: var(--font-anton);
-    --heading-XXLarge-font-weight: var(--font-weight-400);
-    --heading-XXLarge-font-size: 320px;
-    --heading-XXLarge-line-height: var(--line-height);
-    --heading-XXLarge-letter-spacing: var(--letter-spacing);
-    --heading-XXLarge-case: uppercase;
-
-    --heading-XLarge-font: var(--font-anton);
-    --heading-XLarge-font-size: 240px;
-    --heading-XLarge-case: uppercase;
-
-    --heading-alt-small-font: var(--font-inter);
-    --heading-alt-small-font-weight: var(--font-weight-600);
-    --heading-alt-small-font-size: 80px;
-    --heading-alt-small-line-height: 1.2;
-    --heading-alt-small-letter-spacing: -2px;
-
-    --text-meta-font: var(--font-gambetta-medium-italic);
-    --text-meta-font-weight: var(--font-weight-500);
-    --text-meta-font-size: 30px;
-
-    --input-color: #6c7d80;
+.footer-logo{
+  color: var(--white-color);
 }
 
 
+.footer-pages-wrapper-title{
+  color: var(--white-color);
+}
+
+.team__title {
+    color:  var(--primary-color);
+    
+}
+
+.team__member-1 {
+    background: var(--gray-light);
+}
+
+.team__member {
+    width: 640px;
+    background: var(--gray-color);
+}
+
+.team__role{
+  color: var(--primary-color);
+}
+
+.team__name{
+  color: var(--primary-color);
+}
+
+.team__bio{
+  color: var(--primary-color);
+}
+
+.awards-first{
+  color: var(--Text-Muted);
+}
+
+.awards-title{
+  color: var(--primary-color);
+}
+
+.awards-description{
+  color: var(--primary-color);
+}
+
+.award-card-1{
+   background: #4A61E2;
+}
+
+.award-title-1{
+    color: #ACB5F7;}
+
+    

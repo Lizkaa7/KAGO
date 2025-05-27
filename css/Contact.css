@@ -18,32 +18,20 @@ html, body {
 
 
 body {
-    --logo-color: var(--text-default-color);
+    --logo-color: var(--background-color);
 
     --footer-background-color: var(--primary-color);
     --footer-color:  var(--background-color);
     --footer-meta-color:  var(--background-color);
 
     --background-color:  var(--background-color);
-    --font-color: var(--primary-color);
 
-    --form-meta-color: var(--primary-color);
 
     background-color: var(--background-color);
-    color: var(--font-color);
+    color: var(--background-color);
 }
 
-body.inverse {
-    --logo-color: var(--text-default-inverse-color);
 
-    --footer-background-color:  var(--background-color);
-    --footer-color: var(--primary-color);
-    --footer-meta-color: var(--primary-color);
-
-    --background-color:var(--primary-color);
-    --font-color:  var(--background-color);
-
-}
 
 header .header-nav ul {
     justify-content: start;
@@ -78,86 +66,12 @@ main h1 {
     pointer-events: none;
 }
 
-main form {
-    padding: 0 96px 64px 96px;
-}
-
-.contact-form {
-    width: 960px;
-    max-width: 100%;
-    padding: 160px 96px 64px;
-    box-sizing: border-box;
-    display: flex;
-    flex-direction: column;
-    gap: 40px;
-}
-
-.row {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 32px;
-}
-
-.row .field-group {
-    width: 100%;
-}
 
 
-input, textarea {
-    width: 100%;
-    padding: 16px 20px;
-    font-size: 18px;
-    color: var(--input-color);
-    border: 2px solid #E8E8E8;
-    background-color: #F8F8F8;
-}
 
-input::placeholder, textarea ::placeholder {
-    font-family: var(--font-inter);
-    color: var(--input-color);
-}
 
-textarea {
-    height: 160px;
-    resize: vertical;
-}
 
-.submit-button {
-    background-color: var(--primary-color);
-    color: #fff;
-    font-weight: bold;
-    font-size: 18px;
-    padding: 16px;
-    border: none;
-    border-radius: 32px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-}
 
-.submit-button:hover {
-    background-color: #333;
-}
 
-label {
-    display: inline-block;
-    padding-bottom: 12px;
-    font-family: var(--text-meta-font);
-    font-weight: var(--text-meta-font-weight);
-    font-size: 20px;
-    color: var(--form-meta-color);
-    opacity: .6;
-}
-
-label:before {
-    content: '(';
-}
-
-label:after {
-    content: ')';
-}
-
-.field-group {
-    flex: 1;
-}
 
 

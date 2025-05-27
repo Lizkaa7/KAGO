@@ -7,9 +7,7 @@
     <link rel="stylesheet" href="static/styles/style.css" />
     <title>Kajo</title>
     <style>
-      a {
-        text-decoration: none; color: white;
-      }
+     
     </style>
   </head>
   <body>
@@ -128,5 +126,32 @@
         <li><a href="#">Back to Top</a></li>
       </ul>
     </div>
+    <script>
+  const toggleButton = document.getElementById("toggle-theme");
+
+  let darkMode = false;
+
+  toggleButton.addEventListener("click", () => {
+    const root = document.documentElement;
+
+    if (!darkMode) {
+
+      root.style.setProperty('--primary-color', '#FFF');
+      root.style.setProperty('--Text-Muted', 'rgba(255, 255, 255, 0.60)');
+      root.style.setProperty('--background-color', '#0E1011');
+      root.style.setProperty('--gray-light', '#181A1B');
+      root.style.setProperty('--gray-color', '#1F2122');
+    } else {
+
+      root.style.setProperty('--primary-color', '#0E1011');
+      root.style.setProperty('--Text-Muted', 'rgba(14, 16, 17, 0.60)');
+      root.style.setProperty('--background-color', '#FFF');
+      root.style.setProperty('--gray-light', '#F8F8F8');
+      root.style.setProperty('--gray-color', '#EEE');
+    }
+
+    darkMode = !darkMode;
+  });
+</script>
   </body>
 </html>

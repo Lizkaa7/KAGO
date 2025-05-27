@@ -7,13 +7,11 @@
     --font-weight-600: 600;
     --letter-spacing: 0;
     --line-height: 1;
-    --dark-color: #0E1011;
-    --wite-color: #FFFFFF;
 
     --breakpoint-max-width: 1920px;
 
-    --text-default-color: var(--dark-color);
-    --text-default-inverse-color: var(--wite-color);
+    --text-default-color: var(--primary-color);
+    --text-default-inverse-color: var(--background-color);
 
     --header-height: 100px;
     --header-x-padding: 96px;

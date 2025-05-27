@@ -88,7 +88,7 @@ text-transform: uppercase;
 }
 
 .service-title {
-color: #0E1011;
+color: var(--primary-color);
 font-family: 'Inter', sans-serif;
 font-size: 40px;
 font-style: normal;
