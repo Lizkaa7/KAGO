@@ -71,6 +71,17 @@ header .header-link a:active {
     border: 1px solid var(--primary-color);
 }
 
+.header-image-logo{
+font-family: "Anton SC";
+    width: 73.672px;
+height: 35px;
+font-size: 50px;
+flex-shrink: 0;
+color: var(--primary-color);
+padding-right: 540px;
+
+}
+
 .header-change-icon{
     width: 22px;
     height: 22px;
