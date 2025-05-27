@@ -8,7 +8,7 @@ footer {
 
  .footer-logo {
     margin-bottom: 312px;
-    color: var(--background-color);
+    color: var(--white-color);
     font-size: var(--heading-XLarge-font-size);
     text-transform: var(--heading-XLarge-case);
     font-family: "Anton SC";
@@ -49,7 +49,7 @@ footer .footer-pages .footer-pages-wrapper nav {
     font-weight: var(--components-navbar-font-weight);
     font-size: 26px;
     line-height: 1.3;
-    color: var(--background-color);
+    color: var(--white-color);
     
 }
 
@@ -60,7 +60,7 @@ footer .footer-pages .footer-pages-wrapper li {
 footer .footer-links {
     display: flex;
     justify-content: space-between;
-    color: var(--background-color);
+    color: var(--white-color);
     font-family: var(--components-navbar-font);
     font-weight: var(--components-navbar-font-weight);
     font-size: var(--components-navbar-font-size);
