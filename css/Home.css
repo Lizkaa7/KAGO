@@ -339,6 +339,7 @@
   align-items: flex-start;
   flex: 1 0 0;
   align-self: stretch;
+  padding-left: 128px;
 }
 
 .service-brand-strategy {
@@ -362,12 +363,13 @@
   align-items: flex-start;
   gap: 96px;
   align-self: stretch;
+  padding-bottom: 128px;
 }
 
 .section-label {
   color: var(--Text-Muted, rgba(14, 16, 17, 0.60));
   font-family: Gambetta;
-  font-size: 15px;
+  font-size: 30px;
   font-style: italic;
   font-weight: 500;
   line-height: 100%;
@@ -377,7 +379,7 @@
   position: absolute;
   right: 0;
   font-weight: 500;
-  font-size: 15px;
+  font-size: 30px;
   line-height: 100%;
   color: var(--gray);
   font-style: italic;
@@ -409,14 +411,14 @@
   flex-direction: row;
   gap: 64px;
   align-items: center;
+  width: 1920px;
 
 }
 
 
 .image {
   background: url(<path-to-image>) lightgray 50% / cover no-repeat;
-  width: 450px;
-  height: 563px;
+ 
 }
 
 .service-service-brand {
@@ -441,34 +443,35 @@
 }
 
 .service-info {
-  font-size: 16px;
+  font-size: 40px;
+  font-family: 'Inter';
   line-height: 1.5;
   color: var(--primary-color);
   margin-bottom: 32px;
 }
 
 .service-subtitle {
-  font-size: 14px;
+  font-size: 32px;
   font-style: italic;
   line-height: 1.5;
   color: var(--gray);
   margin-bottom: 16px;
+  color: var(--Text-Muted, rgba(14, 16, 17, 0.60));
 }
 
 .service-list {
-  font-size: 14px;
+  font-size: 32px;
   line-height: 1.5;
   color: var(--primary-color);
 }
 
 .service-image {
-  max-width: 400px;
   flex: 1;
 }
 
 .service-image picture img {
-  width: 100%;
-  height: auto;
+  width: 900px;
+  height: 1125px;
   transition: transform 0.3s ease;
   display: block;
 }
@@ -478,19 +481,16 @@
 }
 
   .services-title {
-    font-size: 72px;
+    font-size: 320px;
   }
 
   .services-description {
-    font-size: 20px;
+    font-size: 80px;
   }
 
   .service-name {
-    font-size: 32px;
-  }
-
-  .service-name {
-    font-size: 50px;
+    font-size: 128px;
+    padding-top: 128px;
   }
 
 li {
