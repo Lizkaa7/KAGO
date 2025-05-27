@@ -213,3 +213,19 @@ span {
   display: flex;
   padding-bottom: 15px;
 }
+
+.head-inf{
+display: flex;
+width: 960px;
+height: 1080px;
+padding: 160px 96px 64px 96px;
+flex-direction: column;
+justify-content: flex-end;
+align-items: flex-start;
+gap: 48px;
+}
+
+.head-cont{
+  display: flex;
+flex-direction: row;
+}
