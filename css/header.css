@@ -7,7 +7,7 @@ header {
     font-size: var(--components-navbar-font-size);
     letter-spacing: var(--components-navbar-letter-spacing);
     gap: 50px;
-width: 1920px;
+
 padding: 64px 96px 0px 96px;
 justify-content: space-between;
 align-items: center;
@@ -43,7 +43,7 @@ line-height: 1;
 header .header-nav ul {
     display: flex;
     gap: 48px;
-    justify-content: center;
+    justify-content: flex-start;
     
 }
 
