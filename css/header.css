@@ -1,17 +1,16 @@
 header {
     display: flex;
     height: var(--header-height);
-
     font-family: var(--components-navbar-font);
     font-optical-sizing: auto;
     font-weight: var(--components-navbar-font-weight);
     font-size: var(--components-navbar-font-size);
     letter-spacing: var(--components-navbar-letter-spacing);
+    gap: 50px;
 
 padding: 64px 96px 0px 96px;
 justify-content: space-between;
 align-items: center;
-
 }
 
 .container{
@@ -32,18 +31,19 @@ header .header-nav {
 header .header-nav a {
     line-height: 1.5;
     color: var(--primary-color);
-
+    font-size: 20px;
 font-family: Inter;
 font-size: 22px;
 font-style: normal;
 font-weight: 600;
 line-height: 1; 
+
 }
 
 header .header-nav ul {
     display: flex;
     gap: 48px;
-    justify-content: center;
+    justify-content: flex-start;
     
 }
 
@@ -98,6 +98,13 @@ height: 35px;
 .header-change-icon{
     width: 22px;
     height: 22px;
+}
+
+
+.header-link{
+    margin-right: 20px;
+    font-family:Inter;
+    font-size: 22px;
 }
 
 
