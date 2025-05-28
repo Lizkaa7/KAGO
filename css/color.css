@@ -6,6 +6,8 @@
   --white-color: #FFF;
   --gray-light:#F8F8F8;
   --gray-color:#EEE;
+  --Text-Inverse-Muted:rgba(255, 255, 255, 0.60);
+
 
 
       --font-anton:  "Anton SC", sans-serif;
@@ -49,6 +51,10 @@
     --text-meta-font-size: 30px;
 
     --input-color: #6c7d80;
+}
+
+.header-image-logo-item{
+  color: var(--primary-color);
 }
 
 body{

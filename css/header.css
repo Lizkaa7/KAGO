@@ -1,7 +1,5 @@
 header {
     display: flex;
-    justify-content: center;
-    align-items: center;
     height: var(--header-height);
 
     font-family: var(--components-navbar-font);
@@ -9,19 +7,18 @@ header {
     font-weight: var(--components-navbar-font-weight);
     font-size: var(--components-navbar-font-size);
     letter-spacing: var(--components-navbar-letter-spacing);
-    display: flex;
-width: 960px;
-padding: 64px 96px 0px 0px;
+
+
+width: 1920px;
+padding: 64px 96px 0px 96px;
+justify-content: space-between;
 align-items: center;
+
 }
 
-.header-image-logo{
+.container{
     display: flex;
-width: 75px;
-height: 36px;
-padding: 0.5px 0.961px 0.5px 0.367px;
-justify-content: center;
-align-items: center;
+    flex-direction: column;
 }
 
 header .header-nav {
@@ -29,14 +26,26 @@ header .header-nav {
    
 }
 
+.header-image-logo-item{
+    font-family: "Anton SC";
+    font-size: xx-large;
+}
+
 header .header-nav a {
     line-height: 1.5;
     color: var(--primary-color);
+
+font-family: Inter;
+font-size: 22px;
+font-style: normal;
+font-weight: 600;
+line-height: 1; 
 }
 
 header .header-nav ul {
     display: flex;
     gap: 48px;
+    justify-content: center;
     
 }
 
@@ -50,6 +59,12 @@ header .header-link a {
     opacity: 1;
     transition: all .3s;
   color: var(--primary-color);
+
+font-family: Inter;
+font-size: 22px;
+font-style: normal;
+font-weight: 600;
+line-height: 1; 
 }
 
 .header-link{
@@ -58,13 +73,11 @@ header .header-link a {
 }
 
 header .header-link a:hover {
-    border-bottom: 1px solid;
+    border-bottom: 1px solid var(--primary-color);
     opacity: .6;
 }
 
-.header-link{
-    margin-left: 242px;
-}
+
 
 header .header-link a:active {
     opacity: 1;
@@ -75,27 +88,20 @@ header .header-link a:active {
     border-radius: 100%;
     padding: 5px;
     border: 1px solid var(--primary-color);
+    margin-left: 50px;
 }
 
 .header-image-logo{
-font-family: "Anton SC";
-    width: 73.672px;
+width: 73.672px;
 height: 35px;
-font-size: 50px;
-flex-shrink: 0;
-color: var(--primary-color);
-padding-right: 540px;
-
 }
+
 
 .header-change-icon{
     width: 22px;
     height: 22px;
 }
 
-.header-link{
-    margin-right: 20px;
-}
 
 .header-logo{
     fill: var(--primary-color);
