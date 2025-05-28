@@ -246,3 +246,18 @@ background:  var(--gray-light);
 .award-title-1{
     color: #ACB5F7;}
 
+.header-link{
+  color: var(--primary-color);
+}
+
+.location-text{
+  color: var(--Text-Muted);
+}
+
+.tagline-text{
+  color: var(--primary-color);
+}
+
+.project-year{
+color: var(--Text-Muted);
+}

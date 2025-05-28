@@ -3,14 +3,16 @@ header {
     justify-content: center;
     align-items: center;
     height: var(--header-height);
-    padding: 0 var(--header-x-padding);
 
     font-family: var(--components-navbar-font);
     font-optical-sizing: auto;
     font-weight: var(--components-navbar-font-weight);
     font-size: var(--components-navbar-font-size);
     letter-spacing: var(--components-navbar-letter-spacing);
-    
+    display: flex;
+width: 960px;
+padding: 64px 96px 0px 0px;
+align-items: center;
 }
 
 .header-image-logo{
@@ -58,6 +60,10 @@ header .header-link a {
 header .header-link a:hover {
     border-bottom: 1px solid;
     opacity: .6;
+}
+
+.header-link{
+    margin-left: 242px;
 }
 
 header .header-link a:active {
