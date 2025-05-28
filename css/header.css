@@ -3,13 +3,12 @@ header {
     justify-content: center;
     align-items: center;
     height: var(--header-height);
-    padding: 0 var(--header-x-padding);
-
     font-family: var(--components-navbar-font);
     font-optical-sizing: auto;
     font-weight: var(--components-navbar-font-weight);
     font-size: var(--components-navbar-font-size);
     letter-spacing: var(--components-navbar-letter-spacing);
+    gap: 50px;
     
 }
 
@@ -30,6 +29,7 @@ header .header-nav {
 header .header-nav a {
     line-height: 1.5;
     color: var(--primary-color);
+    font-size: 20px;
 }
 
 header .header-nav ul {
@@ -89,6 +89,8 @@ padding-right: 540px;
 
 .header-link{
     margin-right: 20px;
+    font-family:Inter;
+    font-size: 22px;
 }
 
 .header-logo{
