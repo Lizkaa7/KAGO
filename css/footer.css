@@ -3,7 +3,7 @@
 footer {
     padding: 96px 96px 64px 96px;
     background-color: var(--primary-color);
-
+width: 100%;
 }
 
  .footer-logo {
@@ -26,6 +26,7 @@ footer .footer-pages .footer-pages-wrapper h4 {
     font-weight: var(--text-meta-font-weight);
     font-size: var(--text-meta-font-size);
     opacity: .6;
+    color: var(--Text-Inverse-Muted);
 }
 
 footer .footer-pages .footer-pages-wrapper h4:before {

@@ -7,6 +7,8 @@
   justify-content: space-between;
 }
 
+
+
 .about-us-block-all {
   display: flex;
   width: 960px;
@@ -23,7 +25,7 @@
 .intro-wrapper {
   display: flex;
   align-items: flex-start;
-  gap: 60px;
+  gap: 96px;
 }
 
 .intro-image {
@@ -48,9 +50,16 @@
 }
 
 .studio-name {
-  font-size: 160px;
-  letter-spacing: 2px;
-  font-family: "Anton SC";
+ font-family: "Anton SC";
+ color: var(--primary-color);
+font-size: 160px;
+font-style: normal;
+font-weight: 400;
+line-height: 1; 
+text-transform: uppercase;
+gap: auto;
+padding-bottom: 200px;
+
 }
 
 .location-text {
@@ -60,8 +69,15 @@
   font-family: Gambetta;
 }
 
-.tagline-text {
-  font-size: 48px;
+
+.tagline-text {font-family: Inter;
+
+font-style: normal;
+font-weight: 600;
+line-height: 1.3; 
+letter-spacing: -0.5px;
+  font-size: 24px;
+
   line-height: 1.2;
   margin-top: 0;
   font-family: 'Inter';
@@ -581,14 +597,14 @@ height: 696px;
 .testimonial-card-1 {
   padding: 80px;
   gap: 96px;
-  background: #EEEEEE;
+  background: var(--gray);
 }
 
-.professor {
-  
-  padding-bottom: 90px;
+.content-text-quote-icon {
+  fill: var(--primary-color);
   display: flex;
   align-items: flex-start;
+width: 47.36px;
 
 }
 
@@ -606,7 +622,7 @@ height: 696px;
   font-size: 26px;
   line-height: 130%;
   letter-spacing: 0px;
-  color: #1E1E1E;
+  color: var(--primary-color);
  
 
 }

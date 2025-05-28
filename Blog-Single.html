@@ -13,24 +13,9 @@
   <body>
    
     <div>
-       <header>
-            <nav class="header-nav">
-              <ul>
-                <li><a href="#">Projects</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">Studio</a></li>
-                <li><a href="#">Journal</a></li>
-              </ul>
-            </nav>
-              <a class="header-link" href="#">Let's Talk</a>
-               <button id="toggle-theme" class="header-change">
-              <svg class="header-change-icon">
-                <use href="./image/svg/contrast.svg#icon-contrast">
-                </use>
-              </svg>
-            </button>
-          </header>
-          <div class="head-cont">
+      
+          <section class="hero">
+<div class="head-cont">
  <picture class="images">
 
             <source
@@ -49,8 +34,28 @@ srcset="./image/Blog-Single/Image.jpg 1x, ./image/Blog-Single/Image@2x.jpg 2x"
     </div>
         
     <div class="all">
+    <header id="top">
+     
+        <nav class="header-nav">
+          <ul>
+            <li><a href="#">Projects</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Studio</a></li>
+            <li><a href="#">Journal</a></li>
+          </ul>
+        </nav>
+        <div class="header-link">
+          <a href="#">Let's Talk</a>
+        </div>
+        <button id="toggle-theme" class="header-change">
+              <svg class="header-change-icon">
+                <use href="./image/svg/contrast.svg#icon-contrast">
+                </use>
+              </svg>
+            </button>
+</header>
       <div class="head-inf">
-<h1>Boost Engagement with Thoughtful UX Design</h1>
+<h1 class="head-inf-title">Boost Engagement with Thoughtful UX Design</h1>
       <p>
         <span
           >Improve user engagement by focusing on UX design that prioritizes
@@ -59,10 +64,12 @@ srcset="./image/Blog-Single/Image.jpg 1x, ./image/Blog-Single/Image@2x.jpg 2x"
       </p>
       </div>
           </div>
+          </section>
+          
      
       
       <div class="text">
-        <h2>Prioritizing User Needs</h2>
+        <h2 class="text-item">Prioritizing User Needs</h2>
         <p>
           the heart of thoughtful UX design is a deep understanding of the user.
           Boosting engagement starts with knowing who your users are, what they
@@ -86,7 +93,7 @@ srcset="./image/Blog-Single/Image.jpg 1x, ./image/Blog-Single/Image@2x.jpg 2x"
           needs are being met effortlessly, the more likely they are to remain
           loyal to your product or service.
         </p>
-        <h2>Creating a Seamless Flow &nbsp;</h2>
+        <h2  class="text-item">Creating a Seamless Flow &nbsp;</h2>
         <p>
           A key aspect of UX design that drives engagement is creating a
           seamless, intuitive flow. Users should be able to navigate through
@@ -111,7 +118,7 @@ srcset="./image/Blog-Single/Image.jpg 1x, ./image/Blog-Single/Image@2x.jpg 2x"
           can navigate effortlessly, they’re more likely to spend time exploring
           your content or completing desired actions.
         </p>
-        <h2>Engaging Through Emotion &nbsp;</h2>
+        <h2 class="text-item">Engaging Through Emotion &nbsp;</h2>
         <p>
           Thoughtful UX design goes beyond functionality—it taps into users’
           emotions. Engagement is not just about making a website usable; it’s
@@ -140,58 +147,63 @@ srcset="./image/Blog-Single/Image.jpg 1x, ./image/Blog-Single/Image@2x.jpg 2x"
       </div>
     </div>
     <div class="text3">
-      <h2>MORE NEWS</h2>
+      <h2 class="more-news-title">MORE NEWS</h2>
       <ol>
-        <h3>We’re a studio with diverse roots that want to help companies</h3>
+        <h3 class="more-news-text">We’re a studio with diverse roots that want to help companies</h3>
       </ol>
     </div>
-    <div class="end">
-      <img src="C:\studiacod\CSS\images\2.jpg" alt="" />
-      <img src="C:\studiacod\CSS\images\1111.jpg" alt="" />
-    </div>
+    
 
-    <div class="over">
-      <div class="sec1">
-        <p>(Pgase)</p>
-        <ol>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Service</a></li>
-          <li><a href="#">Studio</a></li>
-          <li><a href="#">Contact</a></li>
-        </ol>
-      </div>
-      <div class="sec2">
-        <p>(CMS)</p>
-        <ol>
-          <li><a href="#">Work</a></li>
-          <li><a href="#">Work Single</a></li>
-          <li><a href="#">Blog</a></li>
-          <li><a href="#">Blog single</a></li>
-        </ol>
-      </div>
-      <div class="sec3">
-        <p>(Utility Pages)</p>
-        <ol>
-          <li><a href="#">404</a></li>
-          <li><a href="#">Licensing</a></li>
-        </ol>
-      </div>
-      <div class="sec4">
-        <p>(Socials)</p>
-        <ol>
-          <li><a href="#">Instagram</a></li>
-          <li><a href="#">Behance</a></li>
-          <li><a href="#">Dridddle</a></li>
-        </ol>
-      </div>
-    </div>
-    <div class="sss" id="ss">
-      <ol>
-        <li><a href="#">By Gola Templates</a></li>
-      </ol>
-      <ul>
-        <li><a href="#">Back to Top</a></li>
-      </ul>
+     <footer>
+        <h2 class="footer-logo">KAjO©</h2>
+        <div class="footer-pages">
+          <div class="footer-pages-wrapper">
+            <h4 class="footer-pages-wrapper-title">Pages</h4>
+            <nav>
+              <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Service</a></li>
+                <li><a href="#">Studio</a></li>
+                <li><a href="#">Contact</a></li>
+              </ul>
+            </nav>
+          </div>
+          <div class="footer-pages-wrapper">
+            <h4 class="footer-pages-wrapper-title">CMS</h4>
+            <nav>
+              <ul>
+                <li><a href="#">Work</a></li>
+                <li><a href="#">Work Single</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Blog Single</a></li>
+              </ul>
+            </nav>
+          </div>
+          <div class="footer-pages-wrapper">
+            <h4 class="footer-pages-wrapper-title">Utility Pages</h4>
+            <nav>
+              <ul>
+                <li><a href="#">404</a></li>
+                <li><a href="#">Licensing</a></li>
+              </ul>
+            </nav>
+          </div>
+          <div class="footer-pages-wrapper">
+            <h4 class="footer-pages-wrapper-title">Socials</h4>
+            <nav>
+              <ul>
+                <li><a href="#">Instagram</a></li>
+                <li><a href="#">Behance</a></li>
+                <li><a href="#">Dribbble</a></li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+        <div class="footer-links">
+          <a href="#">By Gola Templates</a>
+          <a href="#top">Back To Top</a>
+        </div>
+      </footer>
     </div>
   </body>
 </html>
