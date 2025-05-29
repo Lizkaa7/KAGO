@@ -79,3 +79,7 @@ footer .footer-links a:hover {
     border-bottom: 1px solid;
     opacity: .6;
 }
+
+nav a:hover {
+  text-decoration: underline;
+}

@@ -155,33 +155,33 @@
           </section>
         </section>
       </main>
-      <footer>
-        <div class="footer-logo">KAjO©</div>
+        <footer>
+        <h2 class="footer-logo">KAjO©</h2>
         <div class="footer-pages">
           <div class="footer-pages-wrapper">
-            <h4>Pages</h4>
+            <h4 class="footer-pages-wrapper-title">Pages</h4>
             <nav>
               <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Service</a></li>
-                <li><a href="#">Studio</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="Service.html">Service</a></li>
+                <li><a href="About.html">Studio</a></li>
+                <li><a href="Contact.html">Contact</a></li>
               </ul>
             </nav>
           </div>
           <div class="footer-pages-wrapper">
-            <h4>CMS</h4>
+            <h4 class="footer-pages-wrapper-title">CMS</h4>
             <nav>
               <ul>
-                <li><a href="#">Work</a></li>
-                <li><a href="#">Work Single</a></li>
-                <li><a href="#">Blog</a></li>
-                <li><a href="#">Blog Single</a></li>
+                <li><a href="Work.html">Work</a></li>
+                <li><a href="Work-Single.html">Work Single</a></li>
+                <li><a href="Blog.html">Blog</a></li>
+                <li><a href="Blog-Single.html">Blog Single</a></li>
               </ul>
             </nav>
           </div>
           <div class="footer-pages-wrapper">
-            <h4>Utility Pages</h4>
+            <h4 class="footer-pages-wrapper-title">Utility Pages</h4>
             <nav>
               <ul>
                 <li><a href="#">404</a></li>
@@ -190,7 +190,7 @@
             </nav>
           </div>
           <div class="footer-pages-wrapper">
-            <h4>Socials</h4>
+            <h4 class="footer-pages-wrapper-title">Socials</h4>
             <nav>
               <ul>
                 <li><a href="#">Instagram</a></li>
@@ -205,6 +205,33 @@
           <a href="#top">Back To Top</a>
         </div>
       </footer>
+    <script>
+  const toggleButton = document.getElementById("toggle-theme");
+
+  let darkMode = false;
+
+  toggleButton.addEventListener("click", () => {
+    const root = document.documentElement;
+
+    if (!darkMode) {
+
+      root.style.setProperty('--primary-color', '#FFF');
+      root.style.setProperty('--Text-Muted', 'rgba(255, 255, 255, 0.60)');
+      root.style.setProperty('--white-color', '#0E1011');
+      root.style.setProperty('--gray-light', '#181A1B');
+      root.style.setProperty('--gray-color', '#1F2122');
+    } else {
+
+      root.style.setProperty('--primary-color', '#0E1011');
+      root.style.setProperty('--Text-Muted', 'rgba(14, 16, 17, 0.60)');
+      root.style.setProperty('--white-color', '#FFF');
+      root.style.setProperty('--gray-light', '#F8F8F8');
+      root.style.setProperty('--gray-color', '#EEE');
+    }
+
+    darkMode = !darkMode;
+  });
+</script>
     </div>
   </body>
 </html>
