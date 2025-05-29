@@ -59,6 +59,7 @@ line-height: 1;
 text-transform: uppercase;
 gap: auto;
 padding-bottom: 200px;
+padding-top: 160px;
 
 }
 
@@ -386,7 +387,7 @@ letter-spacing: -0.5px;
 
 .section-label {
   color: var(--Text-Muted, rgba(14, 16, 17, 0.60));
-  font-family: Gambetta;
+  font-family: "Gambetta";
   font-size: 30px;
   font-style: italic;
   font-weight: 500;
@@ -405,7 +406,7 @@ letter-spacing: -0.5px;
 
 .services-title {
   font-size: 320px;
-  font-family: "Gambetta";
+  font-family: "Anton SC";
   font-weight: 1000;
   line-height: 1;
   color: var(--primary-color);
@@ -478,6 +479,7 @@ letter-spacing: -0.5px;
 }
 
 .service-list {
+  font-family: 'Inter';
   font-size: 32px;
   line-height: 1.5;
   color: var(--primary-color);
@@ -498,9 +500,6 @@ letter-spacing: -0.5px;
   transform: scale(1.05);
 }
 
-  .services-title {
-    font-size: 320px;
-  }
 
   .services-description {
     font-size: 80px;
@@ -542,16 +541,21 @@ li {
   align-self: stretch;
 }
 
-
+.section-subtitle{
+font-family: Inter;
+font-size: 80px;
+font-style: normal;
+line-height: 1.2;
+letter-spacing: -2px;
+}
 
 .section-title-2 {
   color:var(--primary-color);
   font-family: "Anton SC";
-  font-size: 100px;
-  font-style: normal;
-  font-weight: 10px;
-  line-height: 90px;
-  text-transform: uppercase;
+font-size: 240px;
+font-style: normal;
+line-height: 1;
+text-transform: uppercase;
 }
 
 
@@ -652,6 +656,16 @@ width: 47.36px;
  flex-direction: initial;
 }
 
+.testimonial-second{
+  display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 16px;
+}
+
+.section-count{
+      color: var(--Text-Muted);`
+}
 
 
 

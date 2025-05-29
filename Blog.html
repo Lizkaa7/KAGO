@@ -18,39 +18,40 @@
     </style>
   </head>
   <body>
-    <header>
-      <div class="start">
-      <span style="font-size: 40px;">
-        <a href="#">
-          <p>
-            
-          </p>
-        <svg class=".header-image-logo">
-          <use  href="./image/svg/KAJO.svg#icon-KAJO">
-          </use>
-        </svg>
-      </a>
-    </span>
-      <div class="start1"><a href="#">Projects</a>
-      <a href="#">Services</a>
-      <a href="#">Studio</a>
-      <a href="#">Journal</a>
-    </div>
-    <div class="start2">
-      <a href="#">Let's Talk</a>
-    </div>
-    </div>
-    </header>
+    <header id="top">
+        <div class="header-image-logo">
+          <a>
+            <p class="header-image-logo-item">KAJO</p>
+          </a>
+        </div>
+        <nav class="header-nav">
+          <ul>
+            <li><a href="Work.html">Projects</a></li>
+            <li><a href="Service.html">Services</a></li>
+            <li><a href="About.html">Studio</a></li>
+            <li><a href="Blog.html">Journal</a></li>
+          </ul>
+        </nav>
+        <div class="header-link">
+          <a href="#">Let's Talk</a>
+        </div>
+        <button id="toggle-theme" class="header-change">
+              <svg class="header-change-icon">
+                <use href="./image/svg/contrast.svg#icon-contrast">
+                </use>
+              </svg>
+            </button>
+</header>
     
     <div class="title">
         <span style="font-family:Anton SC; font-size: 130px;"><h1 class="title-jornal">JOURNAL</h1></span>
-        <h2 class="title-jornal-text">Explore insights,tips, and trends to elevate your brand strategy.</h2>
+        <h2 class="title-jornal-text">Explore insights, tips, and trends to elevate your brand strategy.</h2>
       </ol>
     </div>
     <div class="conteiner">
       <div class="box1">
         <picture>
-           <img src="./image/blog/Image (1).png" alt="">
+           <img class="journal-img" src="./image/blog/Image (1).png" alt="">
         </picture>
        <div class="box">
 <li class="first-li">(Art Director)</li>
@@ -64,7 +65,7 @@
       
       <div class="box2">
         <picture>
-           <img src="./image/blog/Image.png" alt="">
+           <img class="journal-img" src="./image/blog/Image.png" alt="">
         </picture>
         <div class="box">
         <li class="Art-Director">(Art Director)</li>
@@ -77,7 +78,7 @@
       </div>
       <div class="box3">
         <picture>
-           <img src="./image/blog/Image (2).png" alt="">
+           <img class="journal-img" src="./image/blog/Image (2).png" alt="">
         </picture>
         <div class="box">
         <li class="Art-Director">(Art Director)</li>
@@ -92,7 +93,7 @@
     <div class="conteiner1">
       <div class="box4">
       <picture>
-           <img src="./image/blog/Image (3).png" alt="">
+           <img class="journal-img" src="./image/blog/Image (3).png" alt="">
         </picture>
         <div class="box">
         <li class="Art-Director">(Art Director)</li>
@@ -105,7 +106,7 @@
       </div>
       <div class="box5">
        <picture>
-           <img src="./image/blog/Image (4).png" alt="">
+           <img class="journal-img" src="./image/blog/Image (4).png" alt="">
         </picture>
         <div class="box">
         <li class="Art-Director">(Art Director)</li>
@@ -129,7 +130,7 @@ srcset="./image/Blog-Single/Image.webp 1x, ./image/Blog-Single/Image@2x.webp 2x"
 srcset="./image/Blog-Single/Image.jpg 1x, ./image/Blog-Single/Image@2x.jpg 2x"    
                         type="image/jpg">
 
-       <img class="images" src="./image/Blog-Single/boost.jpg" alt="imeig"/> 
+       <img class="images journal-img" src="./image/Blog-Single/boost.jpg" alt="imeig"/> 
       </picture>
       <div class="box">
         <li class="Art-Director">(Art Director)</li>
@@ -150,10 +151,10 @@ srcset="./image/Blog-Single/Image.jpg 1x, ./image/Blog-Single/Image@2x.jpg 2x"
             <h4 class="footer-pages-wrapper-title">Pages</h4>
             <nav>
               <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Service</a></li>
-                <li><a href="#">Studio</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="Service.html">Service</a></li>
+                <li><a href="About.html">Studio</a></li>
+                <li><a href="Contact.html">Contact</a></li>
               </ul>
             </nav>
           </div>
@@ -161,10 +162,10 @@ srcset="./image/Blog-Single/Image.jpg 1x, ./image/Blog-Single/Image@2x.jpg 2x"
             <h4 class="footer-pages-wrapper-title">CMS</h4>
             <nav>
               <ul>
-                <li><a href="#">Work</a></li>
-                <li><a href="#">Work Single</a></li>
-                <li><a href="#">Blog</a></li>
-                <li><a href="#">Blog Single</a></li>
+                <li><a href="Work.html">Work</a></li>
+                <li><a href="Work-Single.html">Work Single</a></li>
+                <li><a href="Blog.html">Blog</a></li>
+                <li><a href="Blog-Single.html">Blog Single</a></li>
               </ul>
             </nav>
           </div>
@@ -205,14 +206,14 @@ srcset="./image/Blog-Single/Image.jpg 1x, ./image/Blog-Single/Image@2x.jpg 2x"
 
       root.style.setProperty('--primary-color', '#FFF');
       root.style.setProperty('--Text-Muted', 'rgba(255, 255, 255, 0.60)');
-      root.style.setProperty('--background-color', '#0E1011');
+      root.style.setProperty('--white-color', '#0E1011');
       root.style.setProperty('--gray-light', '#181A1B');
       root.style.setProperty('--gray-color', '#1F2122');
     } else {
 
       root.style.setProperty('--primary-color', '#0E1011');
       root.style.setProperty('--Text-Muted', 'rgba(14, 16, 17, 0.60)');
-      root.style.setProperty('--background-color', '#FFF');
+      root.style.setProperty('--white-color', '#FFF');
       root.style.setProperty('--gray-light', '#F8F8F8');
       root.style.setProperty('--gray-color', '#EEE');
     }

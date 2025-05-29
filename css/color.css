@@ -267,3 +267,43 @@ background:  var(--gray-light);
 .project-year{
 color: var(--Text-Muted);
 }
+
+.subheadline{
+  color: var(--primary-color);
+}
+
+.subheadline>span{
+  color: var(--primary-color);
+}
+
+.description{
+  color: var(--Text-Muted);
+}
+
+.description>span{
+ color: var(--Text-Muted); 
+}
+
+.title{
+  color: var(--primary-color);
+}
+
+.role{
+  color: var(--Text-Muted);
+}
+
+.headline{
+  color: var(--primary-color);
+}
+
+.gray{
+  background-color: var(--gray-color);
+}
+
+.box-card{
+  background-color: var(--primary-color);
+}
+
+.section-number{
+  color: var(--Text-Muted);
+}
