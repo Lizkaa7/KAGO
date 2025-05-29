@@ -303,3 +303,7 @@ color: var(--Text-Muted);
 .box-card{
   background-color: var(--primary-color);
 }
+
+.section-number{
+  color: var(--Text-Muted);
+}
