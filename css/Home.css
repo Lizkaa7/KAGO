@@ -298,10 +298,6 @@ letter-spacing: -0.5px;
     height: 960px;
   }
 
-  .project-logo {
-    width: 100px;
-    height: 100px;
-  }
 
   .project-name {
     font-size: 20px;
@@ -664,7 +660,7 @@ gap: 16px;
 }
 
 .section-count{
-      color: var(--Text-Muted);`
+      color: var(--Text-Muted);
 }
 
 

@@ -18,24 +18,14 @@ html, body {
 
 
 body {
-    --logo-color: var(--background-color);
+   
 
     --footer-background-color: var(--primary-color);
-    --footer-color:  var(--background-color);
-    --footer-meta-color:  var(--background-color);
 
-    --background-color:  var(--background-color);
-
-
-    background-color: var(--background-color);
-    color: var(--background-color);
 }
 
 
 
-header .header-nav ul {
-    justify-content: start;
-}
 
 main {
     display: flex;
@@ -64,6 +54,11 @@ main h1 {
     letter-spacing: var(--heading-XXLarge-letter-spacing);
     text-transform: var(--heading-XXLarge-case);
     pointer-events: none;
+}
+
+
+.headline{
+    padding-top: 160px;
 }
 
 

@@ -18,6 +18,30 @@
     <link rel="stylesheet" href="./css/header.css">
   </head>
   <body>
+      <header id="top">
+        <div class="header-image-logo">
+          <a>
+            <p class="header-image-logo-item">KAJO</p>
+          </a>
+        </div>
+        <nav class="header-nav">
+          <ul>
+            <li><a href="Work.html">Projects</a></li>
+            <li><a href="Service.html">Services</a></li>
+            <li><a href="About.html">Studio</a></li>
+            <li><a href="Blog.html">Journal</a></li>
+          </ul>
+        </nav>
+        <div class="header-link">
+          <a href="#">Let's Talk</a>
+        </div>
+        <button id="toggle-theme" class="header-change">
+              <svg class="header-change-icon">
+                <use href="./image/svg/contrast.svg#icon-contrast">
+                </use>
+              </svg>
+            </button>
+</header>
     <div class="container" id="top">
       <main>
         <section class="main-image-wrapper">
@@ -47,31 +71,8 @@
           </picture>
         </section>
         <section>
-          <header id="top">
-        <div class="header-image-logo">
-          <a>
-            <p class="header-image-logo-item">KAJO</p>
-          </a>
-        </div>
-        <nav class="header-nav">
-          <ul>
-            <li><a href="Work.html">Projects</a></li>
-            <li><a href="Service.html">Services</a></li>
-            <li><a href="About.html">Studio</a></li>
-            <li><a href="Blog.html">Journal</a></li>
-          </ul>
-        </nav>
-        <div class="header-link">
-          <a href="#">Let's Talk</a>
-        </div>
-        <button id="toggle-theme" class="header-change">
-              <svg class="header-change-icon">
-                <use href="./image/svg/contrast.svg#icon-contrast">
-                </use>
-              </svg>
-            </button>
-</header>
-          <h1>Let’s Talk</h1>
+          
+          <h1 class="headline">Let’s Talk</h1>
         
         </section>
       </main>
@@ -125,6 +126,34 @@
           <a href="#top">Back To Top</a>
         </div>
       </footer>
-    </div>
+    <script>
+  const toggleButton = document.getElementById("toggle-theme");
+
+  let darkMode = false;
+
+  toggleButton.addEventListener("click", () => {
+    const root = document.documentElement;
+
+    if (!darkMode) {
+
+      root.style.setProperty('--primary-color', '#FFF');
+      root.style.setProperty('--Text-Muted', 'rgba(255, 255, 255, 0.60)');
+      root.style.setProperty('--white-color', '#0E1011');
+      root.style.setProperty('--gray-light', '#181A1B');
+      root.style.setProperty('--gray-color', '#1F2122');
+      root.style.setProperty('--Text-Inverse-Muted', 'rgba(14, 16, 17, 0.60)')
+    } else {
+
+      root.style.setProperty('--primary-color', '#0E1011');
+      root.style.setProperty('--Text-Muted', 'rgba(14, 16, 17, 0.60)');
+      root.style.setProperty('--white-color', '#FFF');
+      root.style.setProperty('--gray-light', '#F8F8F8');
+      root.style.setProperty('--gray-color', '#EEE');
+      root.style.setProperty('--Text-Inverse-Muted', 'rgba(255, 255, 255, 0.60)')
+    }
+
+    darkMode = !darkMode;
+  });
+</script>
   </body>
 </html>
