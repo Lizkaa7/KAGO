@@ -1,3 +1,35 @@
+.about__title{
+    
+font-family: "Anton SC";
+font-size: 300px;
+font-style: normal;
+font-weight: 400;
+line-height: 320px; 
+text-transform: uppercase;
+}
+
+.about_first{
+    display: flex;
+padding: 160px 96px 96px 96px;
+flex-direction: column;
+align-items: flex-start;
+align-self: stretch;
+}
+.about__description{
+    color: var(--Text-Default, #0E1011);
+
+/* Heading Alt/Small */
+font-family: Inter;
+font-size: 80px;
+font-style: normal;
+font-weight: 600;
+line-height: 120%; /* 96px */
+letter-spacing: -2px;
+}
+.about__image{
+
+}
+
 .man {
     width: 960px;
     height: 540px;
@@ -10,6 +42,7 @@
     justify-content: space-between;
     align-items: center;
     align-self: stretch;
+    margin-bottom: 96px;
 
 }
 
@@ -21,7 +54,10 @@ justify-content: space-between;
 align-items: center;
 }
 
-.team__container {}
+.team__member-containers{
+    display: flex;
+    flex-wrap: wrap;
+}
 
 .team__container_start {
     display: flex;
@@ -50,6 +86,7 @@ align-items: center;
     font-weight: 400;
     line-height: 100%;
     text-transform: uppercase;
+    margin-bottom: 96px;
 }
 
 .team__member-1 {
@@ -75,13 +112,30 @@ align-items: center;
 .team__image {
     width: 640px;
     height: 880px;
+    position: relative;
 
 }
 
-.team__socials {}
+.team__socials {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    margin-left: 24%;
+}
 
 .team__social-link {
-    gap: 0px;
+    display: flex;
+width: 60px;
+height: 60px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+background: var(--Background-Primary, #0E1011);
+}
+.media-icon{
+    width: 28px;
+height: 28px;
+flex-shrink: 0;
 }
 
 .team-container {}
@@ -100,6 +154,8 @@ align-items: center;
     font-style: italic;
     font-size: 30px;
     line-height: 100%;
+    margin-top: 80px;
+    margin-bottom: 48px;
 }
 
 .team__name {
@@ -121,9 +177,12 @@ align-items: center;
     font-weight: 400;
     font-size: 22px;
     line-height: 170%;
+    margin-bottom: 80px;
 }
 
+.awards-color-containers {
 
+}
 .awards-first {
     display: flex;
     justify-content: space-between;
@@ -196,13 +255,14 @@ align-items: center;
     font-size: 24.8px;
     line-height: 110%;
     margin: 0;
-    color: var(--background-color);
+    color: #FFF;
+    padding-top: 20px;
 
 }
 
 .award-certificate-title {
     padding-top: 73.5px;
-    color: var(--background-color);
+    color: #FFF;
     font-family: Helvetica;
     font-size: 11.022px;
     font-style: normal;
@@ -303,7 +363,6 @@ align-items: center;
 }
 
 .award-title-4 {
-    padding-bottom: 14px;
     padding-top: 27px;
     font-family: Helvetica;
     font-weight: 700;
@@ -483,7 +542,9 @@ align-items: center;
 
 .awards-description {}
 
-.awards-grid {}
+.awards-grid {
+    display: flex;
+}
 
 .award-card {}
 
@@ -497,21 +558,60 @@ align-items: center;
 
 .award-logo {}
 
-.awards-lists {}
+.awards-lists {
+    width: 960px;
+    background: var(--Background-Muted, #f8f8f8);
+    padding: 96px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 128px;
+    display: flex;
+}
 
 .awards-list {
     justify-content: right;
     display: flex;
     text-align: right;
+    flex-direction: column;
 }
 
-.awards-list-title {}
-
-.awards-list-item {}
-
-.award-name {}
-
-.award-year {}
-.awards-grid{
-
+.awards-list-title {
+    color: var(--Text-Default, #0E1011);
+    font-family: "Anton SC";
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 110%;
+    text-transform: uppercase;
 }
+
+.awards-list-item {
+    display: flex;
+    padding: 24px 0px;
+    justify-content: space-between;
+    align-items: center;
+    align-self: stretch;
+    border-bottom: 1px solid var(--Text-Muted);
+}
+
+.award-name {
+    color: var(--Text-Default, #0E1011);
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 130%;
+    letter-spacing: -0.5px;
+}
+
+.award-year {
+    color: var(--Text-Muted, rgba(14, 16, 17, 0.60));
+    font-family: Gambetta; 
+    font-size: 30px; 
+    font-style: italic; 
+    font-weight: 500; 
+    line-height: 100%;
+}
+.awards-list-item:last-of-type {
+    Border-bottom: none;
+    }
