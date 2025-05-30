@@ -382,7 +382,7 @@ color: var(--Text-Muted);
   color: var(--primary-color);
 }
 .team__social-link {
-  background-color: var(--primary-color);
+  background-color: #0E1011;
 }
 .award-studio{
   color: var(--white-color);
@@ -464,4 +464,12 @@ background: var(--gray-light);
 }
 .award-year {
   color: var(--Text-Muted);
+}
+
+.award-name{
+  color: var(--primary-color);
+}
+
+.about__title{
+  color: var(--primary-color);
 }
