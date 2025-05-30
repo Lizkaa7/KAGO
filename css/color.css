@@ -196,6 +196,9 @@ background:  var(--gray-light);
      color: var(--primary-color);
 
 }
+.section-description{
+  color: var(--Text-Default);
+}
 
 
 .footer-logo{
@@ -305,5 +308,160 @@ color: var(--Text-Muted);
 }
 
 .section-number{
+  color: var(--Text-Muted);
+}
+.projects-label{
+  color: var(--Text-Muted);
+}
+.projects-number {
+  color: var(--Text-Muted);
+
+}
+.projects-title {
+  color: var(--primary-color);
+}
+.projects-subtitle {
+  color: var(--primary-color);
+
+}
+.project-name {
+  color: var(--primary-color);
+
+}
+.services-section {
+  background-color: var(--background-color);
+
+}
+.section-label {
+  color: var(--Text-Muted);
+}
+.section-number {
+  color: var(--Text-Muted);
+}
+.services-description {
+  color: var(--primary-color);
+}
+.service-service-brand {
+  background: var(--gray-light);
+}
+.service-name {
+  color: var(--primary-color);
+}
+.service-info{
+  color: var(--primary-color);
+}
+.service-subtitle {
+  color: var(--gray);
+  color: var(--Text-Muted);
+}
+.service-list {
+  color: var(--primary-color);
+}
+.section-title-2 {
+  color:var(--primary-color);
+}
+.testimonial-card {
+  background: var(--gray-light);
+}
+.testimonial-text {
+  color: var(--primary-color);
+}
+.testimonial-card-1 {
+  background: var(--gray);
+}
+.content-text-quote-icon {
+  fill: var(--primary-color);
+}
+.client-company {
+  color:var(--primary-color);
+}
+.section-count {
+  color: var(--Text-Muted);
+}
+.about__description {
+  color: var(--primary-color);
+}
+.team__social-link {
+  background-color: var(--primary-color);
+}
+.award-studio{
+  color: var(--white-color);
+}
+.award-certificate-title {
+  color: var(--white-color);
+}
+.award-description-1 {
+  color: #ACB5F7;
+}
+.award-card-2 {
+  background: #DE7C41;
+}
+.award-title-2 {
+  color: #A44F1C;
+}
+.award-description-2 {
+  color: #A44F1C;
+}
+.award-card-3 {
+  background: #5C4782;
+}
+.award-title-3 {
+  color: #9B83B0;
+}
+.award-description-3 {
+  color: #9B83B0;
+}
+.award-card-4 {
+  background: #3C7C71;
+}
+.award-title-4 {
+  color: #6BB5A8;
+}
+.award-description-4 {
+  color: #6BB5A8;
+}
+.award-card-5 {
+  background: #F55733;
+}
+.award-title-5 {
+  color: #CB2C13;
+}
+.award-description-5 {
+  color: #CB2C13;
+}
+.award-card-6 {
+  background: #070707;
+}
+.award-title-6 {
+  color: #868686;
+}
+.award-description-6 {
+  color: #9B83B0;
+}
+.award-card-7 {
+  background: #9CD3D6;
+}
+.award-title-7 {
+  color: #37999D;
+}
+.award-card-8 {
+  background: #E53E48;
+}
+.award-title-8 {
+  color: #9E151D;
+}
+.award-card-9 {
+  background: #9CD3D6;
+}
+.award-title-9 {
+  color: #37999D;
+}
+.awards-lists {
+background: var(--gray-light);
+}
+.awards-list-title {
+  color: var(--primary-color);
+}
+.award-year {
   color: var(--Text-Muted);
 }
