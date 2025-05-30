@@ -1,10 +1,10 @@
 .about__title{
     
 font-family: "Anton SC";
-font-size: 300px;
+font-size: 320px;
 font-style: normal;
 font-weight: 400;
-line-height: 320px; 
+line-height: 1; 
 text-transform: uppercase;
 }
 
@@ -16,19 +16,14 @@ align-items: flex-start;
 align-self: stretch;
 }
 .about__description{
-    color: var(--Text-Default, #0E1011);
-
-/* Heading Alt/Small */
 font-family: Inter;
 font-size: 80px;
 font-style: normal;
 font-weight: 600;
-line-height: 120%; /* 96px */
+line-height: 1.2; 
 letter-spacing: -2px;
 }
-.about__image{
 
-}
 
 .man {
     width: 960px;
@@ -84,7 +79,7 @@ align-items: center;
     font-size: 240px;
     font-style: normal;
     font-weight: 400;
-    line-height: 100%;
+    line-height: 1;
     text-transform: uppercase;
     margin-bottom: 96px;
 }
@@ -105,9 +100,6 @@ align-items: center;
     width: 640px;
 }
 
-.team__image-wrapper {}
-
-.team__picture {}
 
 .team__image {
     width: 640px;
@@ -124,21 +116,21 @@ align-items: center;
 }
 
 .team__social-link {
-    display: flex;
+display: flex;
 width: 60px;
 height: 60px;
 justify-content: center;
 align-items: center;
 gap: 10px;
-background: var(--Background-Primary, #0E1011);
+
 }
 .media-icon{
-    width: 28px;
+width: 28px;
 height: 28px;
 flex-shrink: 0;
 }
 
-.team-container {}
+
 
 .team__social-icon {
     width: 60px;
@@ -163,7 +155,7 @@ flex-shrink: 0;
     font-family: Anton SC;
     font-weight: 400;
     font-size: 64px;
-    line-height: 110%;
+    line-height: 1.1;
     text-transform: uppercase;
     width: 300px;
 
@@ -176,13 +168,10 @@ flex-shrink: 0;
     font-family: Inter;
     font-weight: 400;
     font-size: 22px;
-    line-height: 170%;
+    line-height: 1.7;
     margin-bottom: 80px;
 }
 
-.awards-color-containers {
-
-}
 .awards-first {
     display: flex;
     justify-content: space-between;
@@ -214,10 +203,10 @@ flex-shrink: 0;
     padding-top: 16px;
     margin: 0;
     font-family: Inter;
-    font-size: 60px;
+    font-size: 80px;
     font-style: normal;
     font-weight: 600;
-    line-height: 96px;
+    line-height: 1.2;
     letter-spacing: -2px;
 }
 
@@ -244,7 +233,7 @@ flex-shrink: 0;
     font-family: Helvetica;
     font-weight: 700;
     font-size: 42.51px;
-    line-height: 100%;
+    line-height: 1;
     letter-spacing: 0%;
 
 }
@@ -253,34 +242,30 @@ flex-shrink: 0;
     font-family: Helvetica;
     font-weight: 700;
     font-size: 24.8px;
-    line-height: 110%;
+    line-height: 1.1;
     margin: 0;
-    color: #FFF;
     padding-top: 20px;
 
 }
 
 .award-certificate-title {
     padding-top: 73.5px;
-    color: #FFF;
     font-family: Helvetica;
     font-size: 11.022px;
     font-style: normal;
     font-weight: 400;
-    line-height: 110%;
+    line-height: 1.1;
     margin: 0;
 }
 
 .award-description-1 {
     width: 138px;
     height: 50px;
-
     font-family: Helvetica;
     font-weight: 400;
     font-size: 6.89px;
-    line-height: 140%;
-    color: #ACB5F7;
-
+    line-height: 1.4;
+   
 }
 
 .award-card-2 {
@@ -288,7 +273,6 @@ flex-shrink: 0;
     height: 311px;
     justify-content: space-between;
     padding: 35.43px;
-    background: #DE7C41;
 
 }
 
@@ -298,10 +282,8 @@ flex-shrink: 0;
     font-family: Helvetica;
     font-weight: 700;
     font-size: 42.51px;
-    line-height: 100%;
+    line-height: 1;
     letter-spacing: 0%;
-    color: #A44F1C;
-
 }
 
 
@@ -311,8 +293,7 @@ flex-shrink: 0;
     font-family: Helvetica;
     font-weight: 400;
     font-size: 6.89px;
-    line-height: 140%;
-    color: #A44F1C;
+    line-height: 1.4;
 }
 
 .award-card-3 {
@@ -320,8 +301,6 @@ flex-shrink: 0;
     height: 311px;
     justify-content: space-between;
     padding: 35.43px;
-    background: #5C4782;
-
 }
 
 .award-title-3 {
@@ -330,9 +309,9 @@ flex-shrink: 0;
     font-family: Helvetica;
     font-weight: 700;
     font-size: 42.51px;
-    line-height: 100%;
+    line-height: 1;
     letter-spacing: 0%;
-    color: #9B83B0;
+  
 }
 
 .award-description-3 {
@@ -341,8 +320,8 @@ flex-shrink: 0;
     font-family: Helvetica;
     font-weight: 400;
     font-size: 6.89px;
-    line-height: 140%;
-    color: #9B83B0;
+    line-height: 1.4;
+    
 }
 
 .award-card-4 {
@@ -350,7 +329,6 @@ flex-shrink: 0;
     height: 407.4285888671875px;
     justify-content: space-between;
     padding: 35.43px;
-    background: #3C7C71;
 
 }
 
@@ -367,9 +345,8 @@ flex-shrink: 0;
     font-family: Helvetica;
     font-weight: 700;
     font-size: 42.51px;
-    line-height: 110%;
+    line-height: 1.1;
     letter-spacing: 0%;
-    color: #6BB5A8;
     width: 123px;
     height: 94px;
     margin: 0;
@@ -379,14 +356,12 @@ flex-shrink: 0;
 .award-description-4 {
     width: 138px;
     height: 50px;
-
     margin: 0;
     font-family: Helvetica;
     font-weight: 400;
     font-size: 6.89px;
-    line-height: 140%;
+    line-height: 1.4;
     letter-spacing: 0%;
-    color: #6BB5A8;
 
 }
 
@@ -395,8 +370,6 @@ flex-shrink: 0;
     height: 407.4285888671875px;
     justify-content: space-between;
     padding: 35.43px;
-    background: #F55733;
-
 }
 
 .award-title-5 {
@@ -405,9 +378,8 @@ flex-shrink: 0;
     font-family: Helvetica;
     font-weight: 700;
     font-size: 42.51px;
-    line-height: 110%;
+    line-height: 1.1;
     letter-spacing: 0%;
-    color: #CB2C13;
     width: 239px;
     height: 94px;
     margin: 0;
@@ -421,9 +393,8 @@ flex-shrink: 0;
     font-family: Helvetica;
     font-weight: 400;
     font-size: 6.89px;
-    line-height: 140%;
+    line-height: 1.4;
     letter-spacing: 0%;
-    color: #CB2C13;
 }
 
 .award-card-6 {
@@ -442,13 +413,11 @@ flex-shrink: 0;
     font-family: Helvetica;
     font-weight: 700;
     font-size: 42.51px;
-    line-height: 110%;
+    line-height: 1.1;
     letter-spacing: 0%;
     width: 239px;
     height: 94px;
     margin: 0;
-    color: #868686;
-
 }
 
 
@@ -459,9 +428,8 @@ flex-shrink: 0;
     font-family: Helvetica;
     font-weight: 400;
     font-size: 6.89px;
-    line-height: 140%;
+    line-height: 1.4;
     letter-spacing: 0%;
-    color: #9B83B0;
 
 }
 
@@ -470,17 +438,15 @@ flex-shrink: 0;
     height: 311px;
     justify-content: space-between;
     padding: 35.43px;
-    background: #9CD3D6;
 
 }
 
 .award-title-7 {
     font-family: Helvetica;
     font-weight: 700;
-    font-size: 42.51px;
-    line-height: 110.00000000000001%;
+    font-size: 42.514px;
+    line-height: 1.1;
     letter-spacing: 0%;
-    color: #37999D;
 }
 
 .award-card-8 {
@@ -488,17 +454,14 @@ flex-shrink: 0;
     height: 311px;
     justify-content: space-between;
     padding: 35.43px;
-    background: #E53E48;
-
 }
 
 .award-title-8 {
     font-family: Helvetica;
     font-weight: 700;
     font-size: 42.51px;
-    line-height: 110.00000000000001%;
+    line-height: 1.1;
     letter-spacing: 0%;
-    color: #9E151D;
 
 }
 .award-gird-container {
@@ -511,56 +474,24 @@ flex-shrink: 0;
     height: 311px;
     justify-content: space-between;
     padding: 35.43px;
-    background: #9CD3D6;
-
 }
 
 .award-title-9 {
     font-family: Helvetica;
     font-weight: 700;
     font-size: 42.51px;
-    line-height: 110.00000000000001%;
+    line-height: 1.1;
     letter-spacing: 0%;
-    color: #37999D;
 }
 
-.awards-section {}
 
-.awards-container {}
-
-.awards-start {}
-
-.awards-first {}
-
-.awards-subtitle {}
-
-.awards-number {}
-
-.awards-second {}
-
-.awards-title {}
-
-.awards-description {}
 
 .awards-grid {
     display: flex;
 }
 
-.award-card {}
-
-.award-title {}
-
-.award-studio {}
-
-.award-certificate-title {}
-
-.award-description {}
-
-.award-logo {}
-
 .awards-lists {
     width: 960px;
-    background: var(--Background-Muted, #f8f8f8);
     padding: 96px;
     flex-direction: column;
     align-items: flex-start;
@@ -576,12 +507,11 @@ flex-shrink: 0;
 }
 
 .awards-list-title {
-    color: var(--Text-Default, #0E1011);
     font-family: "Anton SC";
     font-size: 96px;
     font-style: normal;
     font-weight: 400;
-    line-height: 110%;
+    line-height: 1.1;
     text-transform: uppercase;
 }
 
@@ -605,12 +535,11 @@ flex-shrink: 0;
 }
 
 .award-year {
-    color: var(--Text-Muted, rgba(14, 16, 17, 0.60));
     font-family: Gambetta; 
     font-size: 30px; 
     font-style: italic; 
     font-weight: 500; 
-    line-height: 100%;
+    line-height: 1;
 }
 .awards-list-item:last-of-type {
     Border-bottom: none;
