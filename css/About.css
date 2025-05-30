@@ -18,12 +18,11 @@ align-self: stretch;
 .about__description{
     color: var(--Text-Default, #0E1011);
 
-/* Heading Alt/Small */
 font-family: Inter;
 font-size: 80px;
 font-style: normal;
 font-weight: 600;
-line-height: 120%; /* 96px */
+line-height: 1.2;
 letter-spacing: -2px;
 }
 .about__image{
@@ -105,9 +104,6 @@ align-items: center;
     width: 640px;
 }
 
-.team__image-wrapper {}
-
-.team__picture {}
 
 .team__image {
     width: 640px;
@@ -120,7 +116,6 @@ align-items: center;
     position: absolute;
     display: flex;
     flex-direction: row;
-    margin-left: 24%;
 }
 
 .team__social-link {
