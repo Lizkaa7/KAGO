@@ -64,12 +64,15 @@ align-items: center;
 }
 
 .team__label {
-    font-size: 25px;
+   font-family: Gambetta;
+font-size: 30px;
+font-style: italic;
+font-weight: 500;
+line-height: 100%;
+color: var(--Text-Muted);
 }
 
-.team__number {
-    font-size: 25px;
-}
+
 
 .team__title {
     padding-left: 96px;
@@ -506,6 +509,7 @@ flex-shrink: 0;
 }
 
 .awards-list-title {
+    display: inline-flex;
     font-family: "Anton SC";
     font-size: 96px;
     font-style: normal;
@@ -524,7 +528,7 @@ flex-shrink: 0;
 }
 
 .award-name {
-    color: var(--Text-Default, #0E1011);
+    
     font-family: Inter;
     font-size: 32px;
     font-style: normal;
