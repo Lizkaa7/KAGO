@@ -218,6 +218,9 @@ letter-spacing: -0.5px;
   align-items: flex-start;
   margin: 0;
   gap: 30px;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+  cursor: pointer;
 }
 
 
@@ -249,6 +252,22 @@ letter-spacing: -0.5px;
   left: 50%;
   transform: translate(-50%, -50%);
   
+}
+.project-image, 
+.project-logo,
+.project-name {
+  transition: transform 0.3s ease;
+}
+.project-item:hover .project-image {
+  transform: scale(1.05); 
+}
+
+.project-item:hover .project-logo {
+  transform: scale(1.1); 
+}
+
+.project-item:hover .project-name {
+  transform: scale(1.1); 
 }
 
 .project-name {
@@ -547,7 +566,34 @@ height: 696px;
   gap: 96px;
 }
 
-
+.testimonial-card,
+.testimonial-card-1,
+.client-photo,
+.testimonial-title,
+.testimonial-text,
+.client-name,
+.client-company {
+  transition: transform 0.3s ease;
+}
+.client-photo:hover {
+  transform: scale(1.1);
+}
+.testimonial-card:hover,
+.testimonial-card-1:hover {
+  cursor: pointer;
+}
+.testimonial-card:hover .testimonial-title,
+.testimonial-card:hover .testimonial-text,
+.testimonial-card:hover .client-photo,
+.testimonial-card:hover .client-name,
+.testimonial-card:hover .client-company,
+.testimonial-card-1:hover .testimonial-title,
+.testimonial-card-1:hover .testimonial-text,
+.testimonial-card-1:hover .client-photo,
+.testimonial-card-1:hover .client-name,
+.testimonial-card-1:hover .client-company {
+  transform: scale(1.05);
+}
 
 .testimonial-title {
   

@@ -465,3 +465,6 @@ background: var(--gray-light);
 .award-year {
   color: var(--Text-Muted);
 }
+.section-description {
+  color: var(--Text-Muted);
+}
