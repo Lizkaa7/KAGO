@@ -293,10 +293,6 @@ letter-spacing: -0.5px;
     height: 960px;
   }
 
-  .project-logo {
-    width: 100px;
-    height: 100px;
-  }
 
   .project-name {
     font-size: 20px;
@@ -635,7 +631,6 @@ flex-direction: column;
 align-items: flex-start;
 gap: 16px;
 }
-
 
 
 

@@ -112,7 +112,6 @@ align-items: center;
     position: absolute;
     display: flex;
     flex-direction: row;
-    margin-left: 24%;
 }
 
 .team__social-link {
