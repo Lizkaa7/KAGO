@@ -53,6 +53,10 @@ align-items: center;
     display: flex;
     flex-wrap: wrap;
 }
+.team__image:hover .team__img {
+    transform: scale(1.05); 
+  }
+  
 
 .team__container_start {
     display: flex;
@@ -91,6 +95,7 @@ color: var(--Text-Muted);
     width: 640px;
 }
 
+  
 .team__member-container {
     display: flex;
 }
@@ -108,13 +113,18 @@ color: var(--Text-Muted);
     width: 640px;
     height: 880px;
     position: relative;
+    overflow: hidden;
+    transition: transform 0.5s ease;
 
 }
 
 .team__socials {
     position: absolute;
-    display: flex;
-    flex-direction: row;
+  bottom: 1px; 
+  left: 86%;
+  transform: translateX(-50%);
+  display: flex;
+  z-index: 2;
 }
 
 .team__social-link {
@@ -123,9 +133,13 @@ width: 60px;
 height: 60px;
 justify-content: center;
 align-items: center;
-gap: 10px;
+transition: transform 0.3s ease;
+
 
 }
+.team__social-link:hover {
+    transform: scale(1.2); 
+  }
 .media-icon{
 width: 28px;
 height: 28px;
