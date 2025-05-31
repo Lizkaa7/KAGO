@@ -478,3 +478,7 @@ background: var(--gray-light);
   color: var(--primary-color);
 
 }
+
+.services-title{
+  color: var(--primary-color);
+}
