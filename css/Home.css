@@ -318,6 +318,11 @@ letter-spacing: -0.5px;
   .project-year {
     font-size: 30px;
   }
+  .project-link {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+  }
   
 
 .services-section {
